@@ -4,7 +4,7 @@
 Notes HTML & CSS Tutorial.
 
 
-Tutorial :1
+*Tutorial :1
 # HTML & CSS Crash Course Tutorial #1 - Introduction
 Total Time:19:59
 
