@@ -173,3 +173,18 @@ border-style: ;
 * white space: now drop (will display in a straight line.
 * border-radius - helps to change border shape.
 * margin:0: auto -auto keyword automatically adjusted spaces.
+
+
+## Tutorial 9:
+# HTML & CSS Crash Course Tutorial #9 - Pseudo Classes & Elements
+
+1. Pseudoclass
+Style emements used for making a particular style.
+hover selector,focus,first child of a parent element.
+  eg : <ul> parent
+	        <li> child element
+   **nav li a:hover**
+2.Psedo elements.
+    **article p::first-line**
+    
+
