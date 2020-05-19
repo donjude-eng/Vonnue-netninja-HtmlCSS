@@ -66,8 +66,8 @@ Tag and Attributes.
 
 
 Notes:
-. <input> tag contains "type "attribute type of input field. eg (text,email,password)
-. "id" attribute will identify the individual tag
+* <input> tag contains "type "attribute type of input field. eg (text,email,password)
+* "id" attribute will identify the individual tag
   *eg; <label for="lbl-name"> Enter the name </label>
      * <input type="text" id="lbl-name" placeholder="Enter your name"> 
 
@@ -76,6 +76,6 @@ Notes:
      <label for="rad-age"> 0-25 </label>
 
 Notes:
-Input is a tag inside form tag
-Case should be same
-If we write two forms the it will separate the space
+* Input is a tag inside form tag
+* Case should be same
+* If we write two forms the it will separate the space
