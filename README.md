@@ -4,7 +4,7 @@
 
 ## Tutorial :1
 # HTML & CSS Crash Course Tutorial #1 - Introduction
-Total Time:19:59
+Total Time- 19:59
 **Completion time: 30 Minutes**
 
 
