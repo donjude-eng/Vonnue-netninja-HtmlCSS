@@ -96,9 +96,8 @@ text align
 line height
 letter spacing
 column-count
-for make column in the document
 border
-border-width:--px;
-border-color:--;
+border-width: px;
+border-color: ;
+border-style: ;
 ```
-border-style:--;
