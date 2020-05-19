@@ -70,9 +70,9 @@ Total time 31:54
   1.eg; <label for="lbl-name"> Enter the name </label>
       1. <input type="text" id="lbl-name" placeholder="Enter your name"> 
  
- **radio button**
- *eg; <input type= "radio" id="rad-age" name="gender1" value="0-25"> If it is name not need to give the "value" attribute.
-     1. <label for="rad-age"> 0-25 </label>
+**radio button**
+eg; <input type= "radio" id="rad-age" name="gender1" value="0-25"> If it is name not need to give the "value" attribute.
+    <label for="rad-age"> 0-25 </label>
 
 **Notes:**
 * Input is a tag inside form tag
