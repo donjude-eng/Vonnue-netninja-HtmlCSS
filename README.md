@@ -16,7 +16,7 @@ Total Time- 19:59
  ```
  <p>content</p>==Paragraph Tag [Time 3:22]
  <a> link </a> ==anchor Tag
- <img> == Image Tag (No clsoing tag)
+ <img> == Image Tag (No closing tag)
  <head> tag -- This is for page information like Title.
  <title> tag -- List in the top
  <body> tag --  This is for visible page conten
