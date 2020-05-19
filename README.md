@@ -149,3 +149,27 @@ border-style: ;
 * attribute selector - a[href]{we can style here for a tag have href attribute}
 * text-transform - for text transforming
 * a[href*="google"] {we can style here for an a tag its href value include text 'google'}
+
+## Tutorial 8:
+# HTML & CSS Crash Course Tutorial #8 - CSS Layout & Position
+
+**Notes**
+1.  Relative. We can shift the element around the page to the original position on the page.
+   eg :{
+        position:relative;    
+    left:20px;
+    bottom:20px;
+
+2. Fixed - Position fixed (The box will be fixed on the page if we dropdown)
+3. Absolute- Absolute position is relative to its closing parent. Position of the parent element to the child element.
+   eg: {
+    position:absolute;
+    left:20px;
+    bottom;20px
+    **absolute relative to the parent which has the relative property.**
+4. Static - Mixture of static and fixed.
+
+*section-index -> Bring the property in front of the page.
+*white space: now drop (will display in a straight line.
+*border-radius - helps to change border shape
+*margin:0: auto -auto keyword automatically adjusted spaces
