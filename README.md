@@ -79,3 +79,26 @@ Total time 31:54
 * Case should be same
 * If we write two forms the it will separate the space
 * The name attribute is important when using radio type because it helps group radio inputs
+
+## Tutorial 4:
+# HTML & CSS Crash Course Tutorial #4 - CSS Basics
+
+**Important usage**
+```
+link -a link between a document and an external resource
+usage -link rel="stylesheet" href="style.css" /
+rel - specify the relationship between the two documents.
+href - href attribute specifies the URL of the page the link goes to.
+units in css - px,em,%,cm,ex,in,am,pc,pt etc..
+text-decoration - values(underline,none,line-through)
+font family
+text align
+line height
+letter spacing
+column-count
+for make column in the document
+border
+border-width:--px;
+border-color:--;
+```
+border-style:--;
