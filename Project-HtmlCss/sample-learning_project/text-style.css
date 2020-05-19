@@ -1,0 +1,107 @@
+.cls_head {
+    text-align: center;
+    margin-left: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    background-color: #fff2cc;
+}
+
+.cls-lbl {
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    margin-right: 80px;
+}
+
+.lbl_address {
+    position: relative;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+
+.txt_class {
+    width: 240px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.radio_container {
+    border: 1px solid black;
+    width: 240px;
+    height: 30px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.cls_submit {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    border: none;
+    border-radius: 3%;
+    width: 200px;
+    height: 40px;
+}
+
+.div-description {
+    float: left;
+    width: 250px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    padding: 5px;
+}
+
+.div_css {
+    background-color: #ffdf80;
+    color: blue;
+}
+
+.div_js {
+    background-color: #b8b8b8;
+}
+
+.div_list {
+    background-color: #ffff87;
+}
+
+.site_cls {
+    color: blue;
+    text-decoration: underline;
+}
+
+.cls-select {
+    width: 240px;
+}
+
+.lbl_red {
+    border: 1px solid black;
+    background-color: red;
+    width: 160px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.lbl_blue {
+    border: 1px solid black;
+    background-color: blue;
+    width: 160px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.lbl_green {
+    border: 1px solid black;
+    background-color: green;
+    width: 160px;
+    display: inline-block;
+    margin: 2px;
+}

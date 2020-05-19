@@ -1,0 +1,14 @@
+span {
+    padding: 20px;
+}
+
+div {
+    display: inline;
+    border: 20px solid chocolate;
+    margin: 30px;
+    padding: 20px;
+}
+
+h3 {
+    color: red
+}
