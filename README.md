@@ -145,21 +145,21 @@ Total Time- 11:49
 **Completion time: 30 Minutes**
 
 **Notes**
-1.  Go to element in inspect >> Right click in tag >> Copy the selector >> Paste it in console
+1.  Go to element in inspect >> Right-click in tag >> Copy the selector >> Paste it in console
 ( This is for to make rules)
-2.  If we want to make a quick channge ---- Go to edit as html -- can add the details
-3.  scroll in to views ( tO  view the item)
+2.  If we want to make a quick change ---- Go to edit as Html -- can add the details
+3.  scroll into views ( tO  view the item)
 4.  Can edit.
 5.  Can add the attribute.
-6.  top left icon will selcet the diffrent item in page.
-7.  Do the reverse enginneering in inspect
-8.  "source" page will show th source.
-9.  To save the the changes from inspects tool > sources >>filesystem >> Add folder wwpokspace.
+6. The top-left icon will select the different items on the page.
+7.  Do the reverse engineering in inspect.
+8.  "source" page will show the source.
+9.  To save the changes from inspects tool > sources >>filesystem >> Add folder workspace.
 
 * inner selector - div p{we can style here for p element that inside a div}
 * attribute selector - a[href]{we can style here for a tag have href attribute}
 * text-transform - for text transforming
-* a[href*="google"] {we can style here for an a tag its href value include text 'google'}
+* a[href*="google"] {we can style here for an a tag its href value include text 'google'
 
 ## Tutorial 8:
 # HTML & CSS Crash Course Tutorial #8 - CSS Layout & Position
@@ -167,7 +167,7 @@ Total Time- 39:21
 **Completion time: 5 hours 40 Minutes**
 
 **Notes**
-1.  Relative. We can shift the element around the page to the original position on the page.
+1.  Relative- We can shift the element around the page to the original position on the page.
    eg :{
         position:relative;    
     left:20px;
