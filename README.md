@@ -121,14 +121,10 @@ border-style: ;
 
 **Semantic Tag**
 
-* <Main> For the main content of a webpage , unique to that page.
- 
+*<Main> For the main content of a webpage , unique to that page.
 *<section> Defines a certain section of a webpage (eg. bloglist, contact info)
- 
 *<article> Defines a bit of content which makes up an article (eg . ablog post)
-
 *<aside> Defines some content relates to something else (eg .similar blogs)
-
 *<header> For the header of a website - contains the nav, title etc
 
 <footer>
