@@ -1,8 +1,6 @@
 # Vonnue-Netninja-HtmlCss
 
-------------Net Ninja------------------------
-Notes HTML & CSS Tutorial.
-
+---Net Ninja---
 
 ## Tutorial :1
 # HTML & CSS Crash Course Tutorial #1 - Introduction
