@@ -78,3 +78,4 @@ Total time 31:54
 * Input is a tag inside form tag
 * Case should be same
 * If we write two forms the it will separate the space
+* The name attribute is important when using radio type because it helps group radio inputs
