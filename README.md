@@ -181,9 +181,11 @@ border-style: ;
 1. Pseudoclass
 Style emements used for making a particular style.
 hover selector,focus,first child of a parent element.
-  eg : <ul> parent
-	        <li> child element
-   **nav li a:hover**
+```  
+eg : <ul> parent
+	<li> child element
+    nav li a:hover
+```
 2.Psedo elements.
     **article p::first-line**
     
