@@ -190,3 +190,12 @@ eg : <ul> parent
    ```article p::first-line```
     
 
+## Tutorial 10:
+# HTML & CSS Crash Course Tutorial #10 - Intro to Media Queries
+
+*Tell the browser how to style an element at a particular view dimension*
+
+
+# Tutorial 11:
+## HTML & CSS Crash Course Tutorial #11 - Next Steps
+
