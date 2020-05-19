@@ -187,6 +187,6 @@ eg : <ul> parent
     nav li a:hover
 ```
 2.Psedo elements.
-    article p::first-line
+    ``article p::first-line``
     
 
