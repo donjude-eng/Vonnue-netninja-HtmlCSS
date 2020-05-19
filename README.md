@@ -19,8 +19,8 @@ Total Time:19:59
 .<img> == Image Tag (No clsoing tag)
 
 .<head> tag -- This is for page information like Title.
-<title> tag -- List in the top
-<body> tag --  This is for visible page conten.
+.<title> tag -- List in the top
+.<body> tag --  This is for visible page conten.
 
->>>Add a local development server foe live refresh==Add extension [15:40]
->>>Inspect the page [17:45]
+.Add a local development server foe live refresh==Add extension [15:40]
+.Inspect the page [17:45]
