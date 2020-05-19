@@ -119,11 +119,11 @@ border-style: ;
 ## Tutorial 6:
 # HTML & CSS Crash Course Tutorial #6 - HTML 5 Semantics
 
-**Semantic Tag**
-```<Main> For the main content of a webpage , unique to that page.
+*Semantic Tag
+ * <Main> For the main content of a webpage , unique to that page.
 <section> Defines a certain section of a webpage (eg. bloglist, contact info)
 <article> Defines a bit of content which makes up an article (eg . ablog post)
 <aside> Defines some content relates to something else (eg .similar blogs)
 <header> For the header of a website - contains the nav, title etc
-<footer> For the footer of a website.```
-<li> Images or icon or list of links>
+<footer> For the footer of a website.
+<li> Images or icon or list of links.
