@@ -101,3 +101,17 @@ border-width: px;
 border-color: ;
 border-style: ;
 ```
+## Tutorial 5:
+
+# HTML & CSS Crash Course Tutorial #5 - CSS Classes & Selectors
+
+**Notes**
+* Class = We can add same class to diffrent element in a page.
+   (We can make text color font etc)
+*: class 1 : class="success">
+  : Multiple classes : class="success.feedback"
+* inner selector - div p{we can style here for p element that inside a div}
+* attribute selector - a[href]{we can style here for a tag have href attribute}
+* text-transform - for text transforming
+* a[href*="google"] {we can style here for an a tag its href value include text 'google'}
+* HTML element can inherit CSS properties thar are applied to thier parent property.
