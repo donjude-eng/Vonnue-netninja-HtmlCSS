@@ -5,6 +5,7 @@
 ## Tutorial :1
 # HTML & CSS Crash Course Tutorial #1 - Introduction
 Total Time:19:59
+*Completion time: 30 Minutes*
 
 
 * HTML used to structure content on the web page 
@@ -27,6 +28,7 @@ Total Time:19:59
 ## Tutorial: 2
 # HTML & CSS Crash Course Tutorial #2 - HTML Basics
 Total Time :19:51
+*Completion time: 40 Minutes*
 
 Tags
 ```
@@ -56,6 +58,7 @@ Tags and Attributes.
 ## Tutorial 3:
 # HTML & CSS Crash Course Tutorial #3 - HTML Forms
 Total time 31:54
+*Completion time: 1 hour 30 Minutes*
 
 **Tag and Attributes.**
 ```
@@ -82,6 +85,8 @@ Total time 31:54
 
 ## Tutorial 4:
 # HTML & CSS Crash Course Tutorial #4 - CSS Basics
+Total Time :42:38
+*Completion time: 1 hour 50 Minutes*
 
 **Important usage**
 ```
@@ -104,6 +109,8 @@ border-style: ;
 ## Tutorial 5:
 
 # HTML & CSS Crash Course Tutorial #5 - CSS Classes & Selectors
+Total Time :26:27
+*Completion time: 40 Minutes*
 
 **Notes**
 * Class = We can add same class to diffrent element in a page.
@@ -118,6 +125,8 @@ border-style: ;
 
 ## Tutorial 6:
 # HTML & CSS Crash Course Tutorial #6 - HTML 5 Semantics
+Total Time :14:14
+*Completion time: 1 hour 20 Minutes*
 
 **Semantic Tag**
  ```
@@ -132,6 +141,8 @@ border-style: ;
 
 ## Tutorial 7:
 # HTML & CSS Crash Course Tutorial #7 - Chrome Dev Tools
+Total Time :11:49
+*Completion time: 30 Minutes*
 
 **Notes**
 1.  Go to element in inspect >> Right click in tag >> Copy the selector >> Paste it in console
@@ -152,6 +163,8 @@ border-style: ;
 
 ## Tutorial 8:
 # HTML & CSS Crash Course Tutorial #8 - CSS Layout & Position
+Total Time :39:21
+*Completion time: 5 hours 40 Minutes*
 
 **Notes**
 1.  Relative. We can shift the element around the page to the original position on the page.
@@ -177,6 +190,8 @@ border-style: ;
 
 ## Tutorial 9:
 # HTML & CSS Crash Course Tutorial #9 - Pseudo Classes & Elements
+Total Time :16:47
+*Completion time: 1 hour 35 Minutes*
 
 1. Pseudoclass
 Style emements used for making a particular style.
@@ -192,10 +207,14 @@ eg : <ul> parent
 
 ## Tutorial 10:
 # HTML & CSS Crash Course Tutorial #10 - Intro to Media Queries
+Total Time :22:36
+*Completion time: 30 Minutes*
 
 *Tell the browser how to style an element at a particular view dimension*
 
 
 # Tutorial 11:
+Total Time :3:24
+*Completion time: 20 Minutes*
 ## HTML & CSS Crash Course Tutorial #11 - Next Steps
 
