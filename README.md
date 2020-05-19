@@ -134,16 +134,16 @@ border-style: ;
 # HTML & CSS Crash Course Tutorial #7 - Chrome Dev Tools
 
 **Notes**
-1 : Go to element in inspect >> Right click in tag >> Copy the selector >> Paste it in console
+1.  Go to element in inspect >> Right click in tag >> Copy the selector >> Paste it in console
 ( This is for to make rules)
-2: If we want to make a quick channge ---- Go to edit as html -- can add the details
-3: scroll in to views ( tO  view the item)
-4: Can edit.
-5: Can add the attribute.
-6: top left icon will selcet the diffrent item in page.
-7: Do the reverse enginneering in inspect
-8: "source" page will show th source.
-9: To save the the changes from inspects tool > sources >>filesystem >> Add folder wwpokspace.
+2.  If we want to make a quick channge ---- Go to edit as html -- can add the details
+3.  scroll in to views ( tO  view the item)
+4.  Can edit.
+5.  Can add the attribute.
+6.  top left icon will selcet the diffrent item in page.
+7.  Do the reverse enginneering in inspect
+8.  "source" page will show th source.
+9.  To save the the changes from inspects tool > sources >>filesystem >> Add folder wwpokspace.
 
 * inner selector - div p{we can style here for p element that inside a div}
 * attribute selector - a[href]{we can style here for a tag have href attribute}
