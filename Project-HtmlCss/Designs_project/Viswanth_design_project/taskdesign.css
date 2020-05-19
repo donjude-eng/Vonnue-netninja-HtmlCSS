@@ -1,0 +1,50 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: black;
+    background-color: lightgrey;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    border: 3px solid black;
+    height: 30px;
+}
+
+div {
+    border: 1px;
+    height: 25px;
+    padding: 25px;
+}
+
+.inner1 {
+    display: inline-block;
+    border: 2px solid red;
+    width: 100px;
+    height: 1px;
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 30px;
+}
+
+h2 {
+    color: black;
+    background-color: lightblue;
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+    border: 3px solid black;
+    height: 30px;
+}
+
+text {
+    border: 2px solid black;
+}
+
+
+/* form {
+    margin: 100px;
+    margin-top: 80px;
+    align-items: center;
+} */

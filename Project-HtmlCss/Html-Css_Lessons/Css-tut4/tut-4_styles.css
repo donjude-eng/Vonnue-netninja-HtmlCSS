@@ -1,0 +1,32 @@
+h1 {
+    color: yellowgreen;
+    /*Variable declaration*/
+    background-color: slategray;
+    font-size: 100px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center;
+}
+
+p {
+    color: royalblue;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 2;
+    column-gap: 60px;
+}
+
+ul {
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: crimson; Add the value in one property */
+    border: 4px solid crimson;
+    border-left: 8px solid cornflowerblue
+}
+
+li {
+    list-style-type: decimal;
+    /* text-shadow: 2px 2px lightgreen; */
+    text-shadow: 2px 2px #201212
+}
