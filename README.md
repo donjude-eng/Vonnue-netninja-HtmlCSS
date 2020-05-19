@@ -169,7 +169,7 @@ border-style: ;
     **absolute relative to the parent which has the relative property.**
 4. Static - Mixture of static and fixed.
 
-*section-index -> Bring the property in front of the page.
-*white space: now drop (will display in a straight line.
-*border-radius - helps to change border shape
-*margin:0: auto -auto keyword automatically adjusted spaces
+*section-index -> Bring the property in front of the page.*
+*white space: now drop (will display in a straight line.*
+*border-radius - helps to change border shape.*
+*margin:0: auto -auto keyword automatically adjusted spaces.*
