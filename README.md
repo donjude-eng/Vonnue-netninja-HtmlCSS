@@ -120,10 +120,32 @@ border-style: ;
 # HTML & CSS Crash Course Tutorial #6 - HTML 5 Semantics
 
 **Semantic Tag**
- ```<Main> For the main content of a webpage , unique to that page.
+ ```
+ <Main> For the main content of a webpage , unique to that page.
 <section> Defines a certain section of a webpage (eg. bloglist, contact info)
 <article> Defines a bit of content which makes up an article (eg . ablog post)
 <aside> Defines some content relates to something else (eg .similar blogs)
 <header> For the header of a website - contains the nav, title etc
 <footer> For the footer of a website.
 <li> Images or icon or list of links.
+```
+
+## Tutorial 7:
+# HTML & CSS Crash Course Tutorial #7 - Chrome Dev Tools
+
+**Notes**
+1 : Go to element in inspect >> Right click in tag >> Copy the selector >> Paste it in console
+( This is for to make rules)
+2: If we want to make a quick channge ---- Go to edit as html -- can add the details
+3: scroll in to views ( tO  view the item)
+4: Can edit.
+5: Can add the attribute.
+6: top left icon will selcet the diffrent item in page.
+7: Do the reverse enginneering in inspect
+8: "source" page will show th source.
+9: To save the the changes from inspects tool > sources >>filesystem >> Add folder wwpokspace.
+
+* inner selector - div p{we can style here for p element that inside a div}
+* attribute selector - a[href]{we can style here for a tag have href attribute}
+* text-transform - for text transforming
+* a[href*="google"] {we can style here for an a tag its href value include text 'google'}
