@@ -7,9 +7,19 @@ h2 a {
     font-family: arial;
 }
 
+
+p {
+    font-size: 18px;
+}
+
+header {
+    background-color: #f63232;
+    padding: 20px 0;
+
 header {
     background-color: #f63232;
     padding: 20px;
+
     text-align: center;
     position: fixed;
     width: 100%;
@@ -36,7 +46,10 @@ header h1 {
 }
 
 .banner .welcome {
+    background-color: #feb614;
+
     background-color: orange;
+
     color: rgb(223, 183, 148);
     padding: 30px;
     font-size: 60px;
@@ -44,6 +57,13 @@ header h1 {
     left: 0;
     top: 30%
 }
+
+
+.banner .welcome span {
+    font-size: 1.4em;
+}
+
+
 
 .banner h2 {
     font-size: 74px;
@@ -58,12 +78,20 @@ nav {
     padding: 20px;
     position: sticky;
     top: 106px;
+
+    z-index: 1;
+
+
 }
 
 nav ul {
     white-space: nowrap;
     max-width: 1200px;
     margin: 0 auto;
+
+    text-align: center;
+
+
 }
 
 nav li {
