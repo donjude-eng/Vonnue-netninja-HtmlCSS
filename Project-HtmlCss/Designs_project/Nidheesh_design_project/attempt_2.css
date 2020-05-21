@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    margin-left: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    background-color: #fff2cc;
+}
+
+form {
+    margin: 10px;
+    margin-left: 100px;
+}
+
+label {
+    border: 3px solid black;
+    margin: 30px;
+}
+
+.rl-address {
+    position: relative;
+    vertical-align: top;
+}
+
+.id-label {
+    width: 200px;
+    height: 15px;
+    padding: 2px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #e9dbdb;
+    border: 1px solid black;
+    margin-right: 80px;
+}
+
+.submit {
+    background-color: green;
+    margin-left: 300px;
+    color: white;
+}
+
+div {
+    margin-top: 30px;
+    height: 350px;
+}
+
+.firstbox {
+    float: left;
+    width: 250px;
+    height: 120px;
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+}
+
+.javabox {
+    background-color: rgb(230, 230, 166);
+}
+
+.cssbox {
+    background-color: gray;
+}
+
+.listbox {
+    background-color: yellow;
+}
+
+.red {
+    border: 1px solid black;
+    background-color: red;
+    width: 160px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.blue {
+    border: 1px solid black;
+    background-color: blue;
+    width: 160px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.green {
+    border: 1px solid black;
+    background-color: green;
+    width: 160px;
+    display: inline-block;
+    margin: 2px;
+}
