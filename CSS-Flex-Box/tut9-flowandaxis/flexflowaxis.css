@@ -1,0 +1,36 @@
+body {
+    background-color: #eeeeee;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 12000px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    justify-content: center;
+    /*Justify content will work from the main axis*/
+    height: 800px;
+}
+
+.box {
+    height: 100px;
+    flex: 0 0 200px;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background: blue;
+}
+
+.three {
+    background: green;
+}
