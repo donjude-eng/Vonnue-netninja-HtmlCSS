@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> The Net Ninja - CSS Flexbox </title>
+    <link rel="stylesheet" href="gridstacked.css">
+    <script src="https://code.jquery.com/jquery-1.12.1.js">
+    </script>
+</head>
+
+<body>
+    <div class="Wrapper">
+        <nav>
+            <ul>
+                <li> <a href="Home"> Home </a></li>
+                <li><a href="About>"> About </a> </li>
+                <li> <a href="Store"> Store </a></li>
+                <li> <a href="Contact"> Contact </a></li>
+            </ul>
+
+            <ul class="social">
+                <li> <a href="facebook" class="fb"> Facebook </a></li>
+                <li> <a href="Twitter" class="tw"> Twitter </a></li>
+
+            </ul>
+        </nav>
+
+
+        <div style="margin: 20px;">
+            <span> layout :</span>
+            <a href="#" class="stack">Stack </a>
+            <a href="#" class="grid"> Grid </a>
+
+        </div>
+
+        <section id="blocks">
+            <article>
+                <h2> I pity the fool ...</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ab, aperiam suscipit porro quaerat reprehenderit nulla laborum ipsa inventore exercitationem voluptatibus minus quae beatae ipsam blanditiis, ad modi nihil sit?</p>
+            </article>
+
+            <article>
+                <h2> Get to the chopper! </h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquam labore nesciunt, asperiores consectetur fugit illum alias sunt fuga nam ratione voluptates atque debitis quis sed unde impedit. Accusamus, commodi.</p>
+            </article>
+
+            <article>
+                <h2> What's horse doing ona spaceship....?</h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio molestiae accusamus magni officiis harum minima excepturi id facilis. Quaerat ullam itaque molestiae. Officia provident suscipit neque assumenda vitae consequatur nam.</p>
+            </article>
+
+            <article>
+                <h2> I pity the fool </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facere iure nisi veritatis, est, perspiciatis harum illo porro quae aut, error id iusto adipisci atque et nostrum incidunt aliquid dolorem!</p>
+
+            </article>
+
+            <article>
+                <h2> Get to the chopper....</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum maiores, fuga ipsam asperiores deleniti accusamus aliquid autem facere odio sit. Reprehenderit veniam doloremque aspernatur ut, inventore neque vero eum delectus.</p>
+            </article>
+
+            <article>
+                <h2> What's horse doing ona spaceship....? </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint? Fugiat corrupti, sapiente magnam eum dignissimos voluptas, aut consequatur tempora natus, quae animi perspiciatis aliquam hic deleniti labore nihil earum.</p>
+
+            </article>
+
+        </section>
+
+
+
+    </div>
+    <script>
+        $("a.stack").on("click", function() {
+            $("article").addClass("stack");
+        });
+
+        $("a.grid").on("click", function() {
+            $("article").removeClass("stack");
+        });
+    </script>
+
+</body>
+
+
+</html>
