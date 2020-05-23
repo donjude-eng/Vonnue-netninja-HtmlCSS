@@ -1,0 +1,13 @@
+div {
+    background-color: gray;
+    border: 2px solid yellow;
+    height: 210px;
+}
+
+.inner1 {
+    display: inline-block;
+    width: 400px;
+    height: 170px;
+    background-color: blue;
+    margin: 20px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registation Form </title>
+    <link rel="stylesheet" href="registration_form.css">
+
+
+</head>
+
+
+
+<body>
+    <section>
+        <img src="image/background_img.jpg" alt="Good shepard">
+
+        <div class="heading">
+            <h1> Registration Form </h1>
+        </div>
+    </section>
+
+
+
+
+    <form style="padding-left:60px;">
+
+        <label for="id-name" class="lbl-class"> Name </label>
+        <input class="text-class" id="id-name" placeholder="Enter name" required>
+        <br><br>
+
+
+        <label for="id-gender" class="lbl-class"> Sex : </label>
+        <label class="radio-contain"> 
+    <input type="radio" id="Male" name="gender" value="Male"> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female <br>
+        </label>
+        <br>
+
+        <label for="id-age" class="lbl-class"> Age </label>
+        <input type="text" class="text-class" id="id-age" placeholder="Enter Age" required>
+        <br><br>
+
+        <label for="id-wedsite" class="lbl-class">Website </label>
+        <a href="Website"> www.samplewebsite.com </a>
+        <br><br>
+
+        <label for="id-qualification" class="lbl-class"> Qualification </label>
+        <select id="month" name="date" class="class-select">
+            <option value="sslc"> SSLC</option>
+            <option value="Plustwo"> Plus Two </option>
+            <option value="UG"> UG </option>
+            <option value="PG"> PG </option>
+        </select>
+        <br><br>
+
+        <label for="id-Email" class="lbl-class"> Email </label>
+        <input type="Email" class="text-class" placeholder="Enter Mail" required>
+        <br><br>
+
+        <label for="id-address" class="lbl-class"> Address </label>
+        <textarea class="text-class" style="height: 100px;"> </textarea>
+        <br>
+        <br>
+        <input type="sumbit" class="submit" value="sumbit button">
+        <br>
+
+    </form>
+    <br>
+
+    <div>
+        <div class="firstbox javabox">
+            <strong> Javascript </strong>, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.
+        </div>
+        <div class="firstbox cssbox">
+            <strong>Cascading Style Sheets</strong> is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
+        </div>
+        <div class="firstbox listbox">
+            <label class="id-label">Primary Colours List</label>
+            <br>
+
+            <ul>
+                <li><label class="red">Red</label></li>
+                <li><label class="blue">Blue</label></li>
+                <li><label class="green">Green</label></li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

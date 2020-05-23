@@ -1,0 +1,33 @@
+body {
+    background-color: #eeeeee;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap-reverse;
+}
+
+.box {
+    height: 100px;
+    min-width: 320px;
+    flex-grow: 1;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background: green;
+}
