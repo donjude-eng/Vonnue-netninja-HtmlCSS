@@ -26,29 +26,7 @@ Total Time- 19:59
 * Add a local development server foe live refresh==Add extension [15:40]
 * Inspect the page [17:45]
 
-CSS FLEXBOX BASICS
 
-The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes).
-
-A flex container expands items to fill available free space or shrinks them to prevent overflow.
-
-main axis – The main axis of a flex container is the primary axis along which flex items are laid out. it is not necessarily horizontal; it depends on the flex-direction property
-
-cross axis – The axis perpendicular to the main axis is called the cross axis. Its direction depends on the main axis direction.
-
-Properties for the Parent(flex container)
-
-display
-This defines a flex container; inline or block depending on the given value.
-It enables a flex context for all its direct children.
-flex-direction
-This establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-Flexbox is (aside from optional wrapping) a single-direction layout concept.
-Think of flex items as primarily laying out either in horizontal rows or vertical columns
-row (default): left to right in ltr; right to left in rtl
-row-reverse: right to left in ltr; left to right in rtl
-column: same as row but top to bottom
-column-reverse: same as row-reverse but bottom to top
 
 ## Tutorial :2
 # HTML & CSS Crash Course Tutorial #2 - HTML Basics
@@ -243,3 +221,26 @@ Total Time- 3:24
 **Completion time: 20 Minutes**
 ## HTML & CSS Crash Course Tutorial #11 - Next Steps
 
+## CSS FLEXBOX BASICS
+
+The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes).
+
+A flex container expands items to fill available free space or shrinks them to prevent overflow.
+
+main axis – The main axis of a flex container is the primary axis along which flex items are laid out. it is not necessarily horizontal; it depends on the flex-direction property
+
+cross axis – The axis perpendicular to the main axis is called the cross axis. Its direction depends on the main axis direction.
+
+Properties for the Parent(flex container)
+
+# Display
+This defines a flex container; inline or block depending on the given value.
+It enables a flex context for all its direct children.
+flex-direction
+This establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+Flexbox is (aside from optional wrapping) a single-direction layout concept.
+Think of flex items as primarily laying out either in horizontal rows or vertical columns
+row (default): left to right in ltr; right to left in rtl
+row-reverse: right to left in ltr; left to right in rtl
+column: same as row but top to bottom
+column-reverse: same as row-reverse but bottom to top
