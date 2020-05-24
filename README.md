@@ -2,7 +2,6 @@
 
 ---Net Ninja---
 
-## Tutorial :1
 # HTML & CSS Crash Course Tutorial #1 - Introduction
 Total Time- 19:59
 **Total Line of code : 2360**
@@ -27,8 +26,6 @@ Total Time- 19:59
 * Inspect the page [17:45]
 
 
-
-## Tutorial :2
 # HTML & CSS Crash Course Tutorial #2 - HTML Basics
 Total Time- 19:51
 **Completion time: 40 Minutes**
