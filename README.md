@@ -55,7 +55,6 @@ Tags and Attributes.
 <p style="organge"> Line </p>
 ```
 
-## Tutorial :3
 # HTML & CSS Crash Course Tutorial #3 - HTML Forms
 Total time-31:54
 **Completion time: 1 hour 30 Minutes**
@@ -83,7 +82,6 @@ Total time-31:54
 * If we write two forms the it will separate the space
 * The name attribute is important when using radio type because it helps group radio inputs
 
-## Tutorial :4
 # HTML & CSS Crash Course Tutorial #4 - CSS Basics
 Total Time- 42:38
 **Completion time: 1 hour 50 Minutes**
@@ -106,7 +104,6 @@ border-width: px;
 border-color: ;
 border-style: ;
 ```
-## Tutorial :5
 
 # HTML & CSS Crash Course Tutorial #5 - CSS Classes & Selectors
 Total Time- 26:27
@@ -123,7 +120,7 @@ Total Time- 26:27
 * a[href*="google"] {we can style here for an a tag its href value include text 'google'}
 * HTML element can inherit CSS properties thar are applied to thier parent property.
 
-## Tutorial :6
+
 # HTML & CSS Crash Course Tutorial #6 - HTML 5 Semantics
 Total Time- 14:14
 **Completion time: 1 hour 20 Minutes**
@@ -139,7 +136,7 @@ Total Time- 14:14
 <li> Images or icon or list of links.
 ```
 
-## Tutorial :7
+
 # HTML & CSS Crash Course Tutorial #7 - Chrome Dev Tools
 Total Time- 11:49
 **Completion time: 30 Minutes**
@@ -161,7 +158,7 @@ Total Time- 11:49
 * text-transform - for text transforming
 * a[href*="google"] {we can style here for an a tag its href value include text 'google'
 
-## Tutorial :8
+
 # HTML & CSS Crash Course Tutorial #8 - CSS Layout & Position
 Total Time- 39:21
 **Completion time: 5 hours 40 Minutes**
@@ -188,7 +185,6 @@ Total Time- 39:21
 * margin:0: auto -auto keyword automatically adjusted spaces.
 
 
-## Tutorial :9
 # HTML & CSS Crash Course Tutorial #9 - Pseudo Classes & Elements
 Total Time- 16:47
 **Completion time: 1 hour 35 Minutes**
@@ -205,7 +201,6 @@ eg : <ul> parent
    ```article p::first-line```
     
 
-## Tutorial :10
 # HTML & CSS Crash Course Tutorial #10 - Intro to Media Queries
 Total Time- 22:36
 **Completion time: 30 Minutes**
@@ -213,7 +208,7 @@ Total Time- 22:36
 *Tell the browser how to style an element at a particular view dimension*
 
 
-# Tutorial :11
+
 Total Time- 3:24
 **Completion time: 20 Minutes**
 ## HTML & CSS Crash Course Tutorial #11 - Next Steps
