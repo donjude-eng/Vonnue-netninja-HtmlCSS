@@ -224,9 +224,9 @@ Total Time- 3:24
 
 
 Concepts:
-1 The ability to alter items and height to best fit in its containers available free space.
-2 It is diffrent than the block model and the inloine model.
-3 It is similar to bootstrap.
+1. The ability to alter items and height to best fit in its containers available free space.
+2. It is diffrent than the block model and the inloine model.
+3. It is similar to bootstrap.
 
 ```
 Flex Properties:
@@ -245,11 +245,11 @@ order: <integer>
 ```
 
 
-1: Flex-wrap : (Property will make the element to wrap or not , If we make the browser small it will make it correctly.
-2: flex-basis: (Same as width, it will help to assign to flex items)
-3: justify-content: (Allign items to left, start,end)
-4: align-items: (This is the behaviou to show the cross axis)
-5: align-center: (Also a behaviour for cross axis)
-6: flex-grow: ( We can make the diffrent elemt row with the diffrent sizes)
-7: flex: ( This is the combination on flex grow and shrink)
+1. Flex-wrap : (Property will make the element to wrap or not , If we make the browser small it will make it correctly.
+2. flex-basis: (Same as width, it will help to assign to flex items)
+3. justify-content: (Allign items to left, start,end)
+4. align-items: (This is the behaviou to show the cross axis)
+5. align-center: (Also a behaviour for cross axis)
+6. flex-grow: ( We can make the diffrent elemt row with the diffrent sizes)
+7. flex: ( This is the combination on flex grow and shrink)
 
