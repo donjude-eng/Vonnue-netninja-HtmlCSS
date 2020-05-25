@@ -215,24 +215,41 @@ Total Time- 3:24
 
 ## CSS FLEXBOX BASICS
 
-The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes).
 
-A flex container expands items to fill available free space or shrinks them to prevent overflow.
+* No floats.
+* Responsive and mobile friendly
+* Positioning chiled element is much easier
+* Flex containers margin do not collapse with the margin of it contents.
+* Order of the elements can easily be change without editing the source html.
 
-main axis – The main axis of a flex container is the primary axis along which flex items are laid out. it is not necessarily horizontal; it depends on the flex-direction property
 
-cross axis – The axis perpendicular to the main axis is called the cross axis. Its direction depends on the main axis direction.
+Concepts:
+1 The ability to alter items and height to best fit in its containers available free space.
+2 It is diffrent than the block model and the inloine model.
+3 It is similar to bootstrap.
 
-Properties for the Parent(flex container)
+```
+Flex Properties:
+display: flex | inline flex
+flex-direction: row | column
+flex-wrap: wrap | nowwrap| wrapreverse
+flex-basis : <length>
+jutsify-content: flex-star | flex-end | center
+align-sent: flex-start| flex-end| center
+align-items: flex-start| flex-end |center
+align-content: flex-start| flex-end| center
+flex-grow: <number>
+flex-shrink: <number>
+flex: <interger>
+order: <integer>
+```
 
-# Display
-This defines a flex container; inline or block depending on the given value.
-It enables a flex context for all its direct children.
-flex-direction
-This establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-Flexbox is (aside from optional wrapping) a single-direction layout concept.
-Think of flex items as primarily laying out either in horizontal rows or vertical columns
-row (default): left to right in ltr; right to left in rtl
-row-reverse: right to left in ltr; left to right in rtl
-column: same as row but top to bottom
-column-reverse: same as row-reverse but bottom to top
+
+1: Flex-wrap : (Property will make the element to wrap or not , If we make the browser small it will make it correctly.
+2: flex-basis: (Same as width, it will help to assign to flex items)
+3: justify-content: (Allign items to left, start,end)
+4: align-items: (This is the behaviou to show the cross axis)
+5: align-center: (Also a behaviour for cross axis)
+6: flex-grow: ( We can make the diffrent elemt row with the diffrent sizes)
+7: flex: ( This is the combination on flex grow and shrink)
+
