@@ -229,7 +229,7 @@ Concepts:
 3. It is similar to bootstrap.
 
 ```
-Flex Properties:
+## Flex Properties:
 display: flex | inline flex
 flex-direction: row | column
 flex-wrap: wrap | nowwrap| wrapreverse
