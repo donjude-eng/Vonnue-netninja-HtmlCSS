@@ -1,0 +1,57 @@
+.wrapper {
+    background: rgb(143, 141, 141);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.service h2,
+.service p {
+    color: #999;
+    margin: 10px 0;
+    display: block;
+    text-align: center;
+}
+
+.service {
+    float: left;
+    background: #eee;
+    width: 29, 33%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}
+
+.content {
+    padding: 10px;
+    background: #ccc;
+    clear: left;
+    margin-top: 60px;
+}
+
+section,
+aside {
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+}
+
+.columns:after {
+    display: block;
+    content: "";
+    clear: both;
+}
