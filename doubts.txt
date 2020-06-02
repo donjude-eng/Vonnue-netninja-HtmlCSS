@@ -9,6 +9,6 @@
 5: How the ui is being changed in website everyday?
 6: How to rotate an element in a in css? [ Based on project myntra]
 7: Usage of property vertical align?
-8:
+
 
     
