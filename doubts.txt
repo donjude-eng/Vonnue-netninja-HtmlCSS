@@ -1,8 +1,14 @@
-1 : What is Z idex?
+1:
+
+1 : What is Z index?
 2 : What is the diffrece between max width and width?
 3 : CSS position?
     a: Relative , Fixed , Absolute
     
 4: How flex shirink grow and basis works?
-5: 
+5: How the ui is being changed in website everyday?
+6: How to rotate an element in a in css? [ Based on project myntra]
+7: Usage of property vertical align?
+8:
+
     
