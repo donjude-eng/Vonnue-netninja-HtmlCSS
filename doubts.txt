@@ -1,6 +1,8 @@
 
 
 1 : What is Z index?
+Ans:
+
 2 : What is the diffrece between max width and width?
 3 : CSS position?
     a: Relative , Fixed , Absolute
