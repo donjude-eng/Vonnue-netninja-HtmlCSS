@@ -1,0 +1,362 @@
+body {
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.main-header-top-one {
+ background-color: black;
+ height: 35em;
+ top: 0px;
+ max-width: 100%;
+ padding-top: 10px;
+}
+
+.main-header {
+    background-color: black;
+}
+
+
+
+@media (min-width :720px){
+    .top-header-menu{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .first-content {
+        display: flex;
+    }
+
+    .first-content li {
+        padding-left: 40px;
+        color: white;
+        list-style-type: none;
+    }
+
+    .first-content li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 9px 12px 10px;
+        font-weight: bold;
+    }
+
+    .second-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .second-content li {
+        padding-left: 250px;
+        color: white;
+        list-style-type: none;
+    }
+
+    .second-content li a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .sign-up {
+        padding-left: 70px;
+        margin-left: 90px;
+        text-align: center;
+        padding: 8px 6px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .content {
+        display: inline-block;
+        padding: 15px 20px;
+        position: relative;
+      }
+    .content:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        width: 0;
+      }
+    .content:hover:after {
+        width: 100%;
+        left: 0;
+      }
+
+    .sign-up:hover {
+        background-color:white;
+        color: black;
+      }
+
+    .top-header-yelp {
+         padding-top: 50px;
+         text-align: center;
+         padding-bottom: 20px;
+     }
+
+    .text-class-one {
+         font-weight: bold;
+         border: none;
+         opacity: .6;
+         width: 300px;
+         outline: none;
+     }
+
+    .text-class-two {
+      font-weight: bold;
+      border: none;
+      opacity: .6;
+      width: 41%;
+      outline: none;
+      padding-left: 33px;
+     }
+
+    .one-image-class {
+       background-color: white;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       width: 70%;
+       margin: 0 auto;
+       border-radius: 3px;
+     }
+
+    .material-class {
+       background-color: #d32323;
+       padding-left: 25px;
+       display: inline-block;
+       padding: 12px 20px;
+       position: relative;
+       height: 1em;
+     }
+
+
+    .find-class {
+       font-weight: bold;
+       opacity: .9;
+       padding: 0px 20px;
+     }
+
+    .account-class-delivery {
+       display: flex;
+       flex-flow: row;
+       align-items: center;
+       width: 50%;
+       margin: 0 auto;
+       padding-left: 60px;
+       padding-top: 30px;
+     }
+    .delivery-class{
+       padding: 5px 20px;
+       padding-left: 0px;
+       color: white;
+       font-weight: bold;
+       text-decoration: none;
+
+     }
+
+
+    .header-paragraph {
+       padding-top: 30px;
+       color: white;
+       width: 30%;
+       margin: 0 auto;
+       text-align: center
+     }
+
+    .yelp-class{
+       font-weight: bold;
+     }
+
+    .small-class{
+       font-size: 12px;
+       font-weight: bold;
+     }
+
+    .first-main-section {
+        width: 70%;
+        margin: 0 auto;
+
+        }
+
+    .image-container-sec {
+        display: flex;
+        flex-flow: column;
+        margin: 0px 13px;
+        border: 1px solid white;
+        background-color: white;
+        /* flex-wrap: wrap; */
+
+    }
+
+    .first-main-section h2{
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 50px;
+        color: #d32323;
+    }
+
+    .dry-cleaning {
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+
+    .container-inside {
+        display: flex;
+    }
+
+
+    .main-section {
+        background-color: #EEEEEE;
+        padding-bottom: 30px;
+    }
+
+    .section-sub {
+        width: 70%;
+        margin: 0 auto;
+        height: 30em;
+
+    }
+
+    .yelp-san-main-section h2{
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 30px;
+        color: #d32323;
+    }
+
+    .cities-container {
+        text-align: center;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-icon-class {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+
+    .cities-container a  {
+     text-decoration: none;
+     color: black;
+     opacity: .8;
+     font-size: 14px;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    }
+
+    .underline-us {
+        color: black;
+        padding: 10px 15px;
+        position: relative;
+    }
+
+    .underline-us:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #d32323;
+    }
+
+
+    .underline-us:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    /* .yelp-section-hot-new {
+       color: #d32323;
+    } */
+
+    .yelp-section-hot-new {
+        /* background-color: green; */
+        height: 25em;
+    }
+
+    .search-icon-class a {
+        padding: 8px 3px;
+    }
+
+    .icon-class {
+        padding-top: 0px;
+        margin-top: 3px;
+    }
+    .checked {
+        color:white;
+        border: 1px solid red;
+        background-color: #d32323;
+      }
+
+    .unchecked {
+        background-color:gray;
+        color:white;
+    }
+
+    .food-class-test {
+        display: flex;
+    }
+
+
+    .lee-moon-thai-eat {
+     margin-left: 40px;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+     border: 1px solid #e0e0e0;
+    }
+
+    .zatter-class{
+        height: auto;
+        max-width: 100%;
+    }
+
+    .yelp-section-hot-new h4{
+        text-align: center;
+        color: #d32323;
+    }
+
+    .lee-moon-thai-eat p {
+        margin: 0px;
+        padding: 4px 2px;
+    }
+
+    .moon-class {
+        color: #0073BB;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+    .lee-moon-thai-eat a {
+        text-decoration: none;
+    }
+
+    .week-class {
+        color: #d32323 ;
+    }
+    .fa-fire {
+        color:#d32323 ;
+    }
+
+
+}
+
+
