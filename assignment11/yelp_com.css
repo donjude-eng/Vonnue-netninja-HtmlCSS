@@ -19,16 +19,17 @@ body {
 @media (min-width :720px){
     .top-header-menu{
         display: flex;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
+        justify-content: space-between;
         align-items: center;
     }
     .first-content {
         display: flex;
+        padding: 0px;
     }
 
     .first-content li {
-        padding-left: 40px;
         color: white;
         list-style-type: none;
     }
@@ -47,7 +48,7 @@ body {
     }
 
     .second-content li {
-        padding-left: 250px;
+        padding-left: 150px;
         color: white;
         list-style-type: none;
     }
@@ -61,7 +62,7 @@ body {
 
     .sign-up {
         padding-left: 70px;
-        margin-left: 90px;
+        /* margin-left: 90px; */
         text-align: center;
         padding: 8px 6px;
         border: 1px solid white;
@@ -140,6 +141,7 @@ body {
      }
 
 
+
     .find-class {
        font-weight: bold;
        opacity: .9;
@@ -194,7 +196,17 @@ body {
         margin: 0px 13px;
         border: 1px solid white;
         background-color: white;
-        /* flex-wrap: wrap; */
+        border-radius: 8px 8px 0 0;
+
+    }
+
+    .image-container-sec img {
+        border-radius: 8px 8px 0 0;
+
+    }
+
+    .image-container-sec:hover {
+     box-shadow: 0px 3px 3px 3px #bdbdbd;
 
     }
 
@@ -228,7 +240,7 @@ body {
     .section-sub {
         width: 70%;
         margin: 0 auto;
-        height: 30em;
+        padding-bottom: 30px;
 
     }
 
@@ -279,7 +291,6 @@ body {
         background: #d32323;
     }
 
-
     .underline-us:hover:after {
         width: 100%;
         left: 0;
@@ -306,11 +317,13 @@ body {
         color:white;
         border: 1px solid red;
         background-color: #d32323;
+        margin-left: 3px;
       }
 
     .unchecked {
         background-color:gray;
         color:white;
+        margin-left: 3px;
     }
 
     .food-class-test {
@@ -319,9 +332,10 @@ body {
 
 
     .lee-moon-thai-eat {
-     margin-left: 40px;
+     margin-left: 30px;
      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
      border: 1px solid #e0e0e0;
+     border-radius: 8px 8px 5px 5px;
     }
 
     .zatter-class{
@@ -336,7 +350,8 @@ body {
 
     .lee-moon-thai-eat p {
         margin: 0px;
-        padding: 4px 2px;
+        padding: 4px 0px;
+        font-size: 14px;
     }
 
     .moon-class {
@@ -350,12 +365,237 @@ body {
     }
 
     .week-class {
-        color: #d32323 ;
+        color: #F15C00;
+        font-size: 14px;
     }
     .fa-fire {
-        color:#d32323 ;
+        color:#F15C00 ;
+    }
+    .lee-moon-thai-eat img {
+        border-radius: 8px 8px 0 0;
     }
 
+    .paragraph-class {
+        padding: 4px 8px;
+    }
+
+    .hr {
+        margin: 0px;
+    }
+
+    .business-class {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .business-class a {
+        color: #0073BB;
+        text-decoration: none;
+    }
+
+    .business-class a:hover {
+        text-decoration: underline;
+    }
+
+    .the-local-help-yelp {
+        display: flex;
+        flex-flow: row;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .second-section {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .local-yelp h3 {
+        text-align: center;
+        color:#d32323;
+    }
+
+    .local-yelp p {
+        font-size: 14px;
+    }
+
+
+    .para-inside-class{
+        width: 580px;
+    }
+
+    .official-yelp-event h3 {
+        text-align: center;
+        color:#d32323;
+    }
+
+    .official-yelp-event {
+        margin-left: 30px;
+        width: 265px;
+    }
+
+    .event-yelp-pound p {
+        font-size: 14px;
+    }
+
+    .image-para-div {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+
+    .image-second-paragraph {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px 8px 0 0;
+    }
+    .para-inside-class a{
+        text-decoration: none;
+        color: #0073BB;
+    }
+
+    .para-inside-class a:hover {
+        text-decoration: underline;
+    }
+
+    .para-inside-class h4 {
+        margin-bottom: 0px;
+        padding-left: 4px
+    }
+
+    .para-inside-class h4:hover {
+        text-decoration: underline;
+    }
+
+    .para-inside-class p {
+      padding-left: 5px;
+    }
+
+    .event-yelp-pound a {
+        text-decoration: none;
+        color: #0073BB;
+    }
+
+    .the-help {
+        opacity: .6;
+    }
+
+    .event-yelp-pound h4 {
+        margin-bottom: 0px;
+        padding-left: 4px;
+    }
+    .event-yelp-pound p {
+        padding-left: 4px;
+    }
+
+    .event-yelp-pound h4:hover{
+        text-decoration: underline;
+    }
+
+    .see-more {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .see-more a{
+    color: #0073BB;
+    text-decoration: none;
+    }
+
+    .see-more a:hover{
+        text-decoration: underline;
+    }
+    .image-class {
+        display: flex;
+    }
+    .review-of-day {
+        display: flex;
+    }
+
+    .third-section {
+        width: 65%;
+        margin: 0 auto;
+        font-size: 14px;
+
+    }
+
+    .elaine-paragraph a {
+     text-decoration: none;
+     font-weight: bold;
+     color: #0073BB;
+
+    }
+    .elaine-paragraph {
+       padding: 10px 5px;
+    }
+    .mature-image {
+        padding: 10px;
+    }
+    .class-friends {
+        display: block;
+    }
+
+
+    .image-yelp-team {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+
+    }
+    .image-yelp-team span {
+        padding: 0px 5px;
+    }
+    .image-yelp-team .checked {
+        color:white;
+        background-color:#F15C00 ;
+    }
+
+    .review-of-day {
+        display: flex;
+        padding: 5px 5px;
+        text-align: center;
+        position: relative;
+        background-color: #D0ECFB;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border-radius: 3px;
+
+    }
+    .review-of-day p {
+        margin: 0;
+    }
+    .banner-class {
+        position: absolute;
+        left: 90%;
+
+    }
+
+    .first-box {
+        width: 580px;
+        padding-top: 20px;
+
+    }
+
+    .inside-container-border {
+     border: 1px solid #e0e0e0;
+     border-radius: 8px;
+    }
+    .review-wrote {
+        margin: 0px;
+        padding-top: 3px;
+    }
+    .team-yelp {
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+    }
+    .last-type-class {
+        padding: 5px;
+    }
+    .top-paragraph-container h3{
+        color:#d32323 ;
+        text-align: center;
+    }
 
 }
 
