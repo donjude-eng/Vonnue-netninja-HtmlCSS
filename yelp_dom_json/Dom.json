@@ -1,0 +1,21 @@
+[
+    {
+        "id":"starcontent1",
+        "rating":3,
+        "review":8000,
+        "weekabout": "25 weeks"
+
+    },
+    {
+        "id":"starcontent2",
+        "rating":4,
+        "review":15000,
+        "weekabout": "10 weeks"
+    },
+    {
+        "id":"starcontent3",
+        "rating":3.5,
+        "review":24000,
+        "weekabout": "25 weeks"
+    }
+]
