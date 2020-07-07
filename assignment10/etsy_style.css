@@ -1,0 +1,934 @@
+.body {
+  background-color:yellow;
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header1 {
+  max-width: 100%;
+  /* height: 30em; */
+  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #EEEEEE;
+}
+
+.first-icon-image {
+  width: 75px;
+  fill:#F1641E;
+  padding-left: 25px;
+}
+
+.top-details-class {
+  display: flex;
+  align-items: center;
+  /* padding-left: 25px; */
+}
+
+.top-first-search-bar{
+  background-color: #EEEEEE;
+  display: flex;
+  align-items: center;
+  width: 76%;
+  border-radius: 35px;
+  height: 3em;
+  margin-left: 25px;
+  box-shadow: 1px 1px gray;
+
+}
+
+.searchiconclass .large .material-icons {
+  justify-content: flex-end;
+}
+
+.search-bar-inside{
+  padding-left: 30px;
+  border: none;
+  outline: none;
+  width: 920px;
+  background-color: #EEEEEE;
+  margin-left: 15px;
+
+}
+
+.search-bar-inside input {
+  width: 60%;
+  border: none;
+  padding: 6px 3px;
+  background-color: #EEEEEE;
+  outline: none;
+  color:black;
+  font-size: 3vh;
+}
+
+.cartclass .large.material-icons {
+ color: black;
+}
+
+.top-first-sign-in {
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.top-first-sign-in a {
+ text-decoration: none;
+ color: black;
+}
+
+.top-most-image{
+  padding-left: 55px;
+}
+
+.top-navigation-bar {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.top-head-nav-class{
+  padding-left: 50px;
+}
+
+.top-head-nav-class a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.top-head-nav-class-jewels a {
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+}
+
+.top-first-div-class{
+  font-family: "Guardian-EgypTT",serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.top-second-div-class{
+  /* background-color: teal; */
+  display: flex;
+  align-items: center;
+}
+
+.section-inside-second-div {
+  display: flex;
+  align-items: center;
+  height: 18em;
+  margin-left: 25px;
+
+}
+
+.large-font-class{
+  font-size: 28px;
+  background-color: 	rgb(221, 235, 227);
+  text-align: center;
+  height: 8.7em;
+
+}
+
+.section-event-sort-class{
+  background-color: 	rgb(221, 235, 227);
+  text-align: center;
+  padding: 18px;
+  height: auto;
+}
+.section-inside-second-div{
+  background-color: 	rgb(221, 235, 227);
+}
+
+.first-text-inside-div-class{
+  display: flex;
+  align-items: center;
+  height: 13em;
+  margin-left: 18%;
+  box-shadow: 1px 1px #EEEEEE ;
+}
+
+.writing-class{
+  padding-left: 98px;
+  /* padding: 0px; */
+}
+
+.top-note{
+  font-size: 20px;
+}
+
+.second-text-inside-div-class{
+  width: 82%;
+  text-align: center;
+  /* padding-top: 50px; */
+  margin-top: 12px;
+  background-color:rgb(221, 235, 227) ;
+  margin-left: 19%;
+  padding: 19px 0px;
+}
+
+
+
+.first-in-class-unique{
+ display: flex;
+ align-items: center;
+ padding:0px 50px;
+
+}
+
+.unique {
+  font-size: 18px ;
+  padding-left: 20px;
+
+}
+
+.three-line-div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.under-paragraph-class p{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.top-align-items{
+  padding: 0px;
+  width: 35%;
+}
+
+
+.top-align-items2 {
+  padding: 3px 5px;
+  margin-left: 10px;
+  width: 35%;
+}
+
+.top-align-items3{
+  padding: 3px 5px;
+  margin-left: 10px;
+  width: 35%;
+}
+
+.popular-right-now-class{
+  text-align: center;
+  font-size: 26px;
+}
+
+.picture-text-class-writing{
+  padding-left: 20px;
+  /* background-color: teal; */
+  display: flex;
+  /* height: 30em; */
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.need-it-bold{
+  font-weight: bold;
+}
+
+.inside-contents{
+  margin-left: 12px;
+}
+
+.for-the-text-div p{
+ padding: 6px 0px;
+ margin: 0px;
+}
+
+.trump-para-class a{
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+
+}
+
+.bottom-shop-for-gifts{
+  display: flex;
+  /* background-color: #F1641E; */
+  padding-top: 10px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.first-trump-image-class {
+  border: 1px solid #EEEEEE;
+  margin-left: 18px;
+  /* background-color: #F1641E; */
+}
+
+.second-trump-image-class {
+
+  margin-left: 15px;
+  border: 1px solid #EEEEEE;
+
+}
+
+.for-the-para-top p {
+  font-size: 18px;
+  padding-left: 18px;
+}
+
+.trump-para-class{
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.first-about-etsy{
+  display: flex;
+}
+
+.about-the-company-etsy{
+  background-color:#fdebd2 ;
+  height: 30em;
+}
+
+.what-is-etsy{
+  text-align: center;
+  font-family: "Guardian-EgypTT",serif;
+  /* font-size: 35px; */
+}
+
+.what-is-etsy h2{
+  font-size: 40px;
+  margin-left: 500px;
+  padding-right: 20px;
+}
+
+.an-arrow-image-class{
+  margin-left: 300px;
+}
+
+.what-is-etsy a{
+ margin-left: 67%;
+ font-size: 18px;
+ color: black;
+}
+
+.common-for-three-classes {
+  display: flex;
+  align-items: center;
+}
+.top-line-class{
+  font-size: 34px;
+  margin-bottom: 0px;
+}
+
+.common-for-three-classes {
+  margin-left: 20px;
+}
+
+.three-impo-parts-in-page{
+ padding: 10px 10px;
+ width: 70%;
+ text-align: center;
+ margin-left: 50px;
+
+}
+
+.four-impo-parts-in-page{
+  padding: 10px 10px;
+  width: 70%;
+  text-align: center;
+  margin-left: 15px;
+
+}
+
+.five-impo-parts-in-page {
+  padding: 10px 10px;
+  width: 70%;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 50px;
+}
+
+.the-image-and-the-text-for-bottom{
+  display: flex;
+  text-align: center;
+  background-color:#fdebd2
+}
+
+.class-for-image{
+  background-color:#fdebd2;
+  padding-top: 15px;
+}
+
+.question-class {
+  /* padding-top: 1%; */
+  padding-left: 16%;
+}
+
+.inside-help {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+
+}
+.inside-help a{
+  text-decoration: none;
+  color: black;
+}
+
+.queation-answers p {
+  font-size: 32px;
+}
+
+.go-to-help-center {
+  padding-left: 33%;
+  padding-right: 33%;
+}
+
+.last-side-image {
+  padding-top: 10%;
+  padding-left: 18%;
+}
+
+.bottom-footer-for-the-site{
+  margin-top: 12%;
+  /* background-color: #d7e6f5; */
+
+}
+
+.one-top-color-mountain{
+  background-color: #d7e6f5;
+  height: 10em;
+
+}
+
+.text-inside-the-div {
+  text-align: center;
+  font-size: 18px;
+}
+
+.text-box-div-class{
+  border: 2px solid gray;
+}
+
+.botton-second-search-bar{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  border-radius: 35px;
+  /* height: 3em; */
+  margin-left: 35%;
+  box-shadow: 1px 1px white;
+}
+
+.search-bar-downside{
+  padding-left: 30px;
+  border: none;
+  outline: none;
+  width: 60%;
+  background-color: white;
+  margin-left: 15px;
+
+}
+
+.search-bar-downside input {
+  width: 55%;
+  border: none;
+  padding: 14px 3px;
+  background-color:white;
+  outline: none;
+  color: black;
+  font-size: 15px;
+}
+
+/* .searchicon-class-text a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+} */
+
+.mountain-image{
+  margin: 0px;
+  margin-bottom: 0px;
+  background-color: #2f466c;
+  margin-right: 0px;
+}
+
+.box-under-subscription{
+  /* position: absolute; */
+  background-color:#2f466c ;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.bottom-inside-writing-class {
+  display: flex;
+  flex: 1 0 480px;
+  flex-wrap: wrap;
+  margin-left: 0px;
+
+}
+
+.shop-sell-about {
+  flex: 1 0 270px;
+}
+
+.shop-team a{
+ text-decoration: none;
+ color: white;
+ padding: 6px 0px;
+ font-size: 14px;
+ font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+
+.shop-team p {
+  color: white;
+  font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+
+.twitter-youtube {
+ display: flex;
+ /* flex: 0 1 200px;*/
+}
+
+.social-account {
+  flex: 0 1 200px;
+
+}
+
+.download-app {
+  border: 2px solid white;
+  width: 75%;
+  border-radius: 30px;
+  text-align: center;
+  height: 2em;
+  padding-bottom: 18px;
+  align-items: center;
+}
+
+.inside-download {
+  padding-left: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.start-image{
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+.inside-download p {
+ padding-bottom: 20px;
+ padding-left: 10px;
+}
+
+.bottom-inside-writing-class {
+background-color:#2f466c ;
+margin-right: 2px;
+}
+
+.shop-sell-about {
+  padding-left: 20px;
+}
+
+.subscriber-class {
+  outline: none;
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.finals-let-image-and-div {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  background-color:#232347;
+  margin-right: 2px;
+  flex-wrap: wrap;
+  height: 6em;
+
+}
+
+.bottom-india-class {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+}
+
+.bottom-india-class2 {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  justify-content: flex-end;
+  padding-left: 550px;
+
+}
+
+.bottom-india-class2 p{
+  padding-left: 40px;
+}
+
+.bottom-india-class2 a{
+ padding-left: 30px;
+
+}
+.bottom-india-class{
+  color: #232347;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+
+}
+
+.bottom-india-class button {
+  background-color: #232347;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.bottom-india-class2 p{
+  color: white;
+}
+
+.bottom-india-class2 a{
+  color: black;
+}
+
+.bottom-india-class2 a{
+  color: white;
+}
+
+.image-cls-mobile {
+   display: none;
+}
+
+.menu-icon-class-text{
+  display: none;
+}
+
+/* .top-first-search-bar{
+  display: none;
+} */
+
+.section-inside-second-div-mobile {
+  display: none;
+}
+.mask-class-section-mobile {
+  display: none;
+}
+
+.three-line-div-mobile {
+  display: none;
+}
+
+.picture-text-class-writing-mobile {
+  display: none;
+}
+
+.top-container-for-mobile {
+  display: none;
+}
+
+.about-the-company-etsy-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 580px) {
+   .header2 {
+     display: none;
+   }
+
+   .image-cls-mobile {
+      display: block;
+   }
+   .first-icon-image {
+      display: none;
+   }
+
+   .div-for-sec-image {
+    display: none;
+  }
+
+  .section-inside-second-div-mobile {
+    display: flex;
+    align-items: center;
+    height: 10em;
+    margin-left: 5px;
+
+  }
+
+  .section-inside-second-div-mobile{
+    background-color: 	rgb(221, 235, 227);
+  }
+
+  .section-inside-second-div {
+    display: none;
+  }
+
+  .mask-class-section {
+    display: none;
+  }
+
+  .mask-class-section-mobile {
+    display: block;
+  }
+
+  .section-inside-second-div-mobile {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .mask-image-div-class {
+    width: 50%;
+    display: flex;
+    padding-left: 20%;
+
+  }
+
+  .writing-class {
+    padding: 0px 50px;
+  }
+
+  .shop-mobile {
+    text-align: center;
+
+  }
+
+  .second-text-inside-div-class2 {
+    text-align: center;
+  }
+
+  .three-line-div {
+    display: none;
+  }
+
+  .three-line-div-mobile {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+
+  .top-align-items-mobile {
+    display: block;
+    border: 1px solid rgb(121, 121, 121);
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+
+  .top-align-items2-mobile {
+    border: 1px solid rgb(155, 155, 155);
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+
+  .top-align-items3-mobile {
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 5px;
+  }
+
+  .picture-text-class-writing {
+    display: none;
+  }
+
+  .picture-text-class-writing-mobile {
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    /* flex-flow: row; */
+    margin: 0px;
+
+  }
+
+  .inside-contents-mobile {
+    width: 188px;
+    margin: 5px;
+  }
+
+  .for-the-text-div-mobile {
+    text-align: justify;
+    /* padding: 0px 40px; */
+    /* font-size: 20px; */
+
+  }
+
+  .for-the-text-div-mobile p {
+   font-size: 15px;
+   padding-left: 10px;
+  }
+
+  .fa .fa-star .checked{
+    margin-left: 10px;
+  }
+
+  .bottom-shop-for-gifts {
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    /* flex-flow: row; */
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .first-trump-image-class {
+    width: 160px;
+    border: none;
+
+  }
+
+  .second-trump-image-class {
+    width: 160px;
+    border: none;
+  }
+
+
+
+  .top-first-search-bar-mobile {
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-radius: 35px;
+    height: 3em;
+    margin-left: 25px;
+    box-shadow: 1px 1px gray;
+    margin-bottom: 10px;
+
+    }
+
+    .search-bar-inside-mobile{
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    width: 500px;
+    background-color: #EEEEEE;
+    }
+
+    .top-container-for-mobile{
+      display: flex;
+      border-bottom: 2px solid #EEEEEE;
+      padding: 0px 15px;
+    }
+
+
+    .search-bar-inside-mobile input{
+    border: none;
+    background-color: #EEEEEE;
+    outline: none;
+    color: black;
+    width: 90%;
+
+  }
+
+  .top-first-sign-in {
+    padding-left: 130px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .header1 {
+    max-width: 100%;
+    /* height: 30em;  */
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom: 0px solid #EEEEEE;
+  }
+
+  .menu-icon-class-text-mobile{
+    padding-top: 10px;
+
+  }
+
+  .search-bar-downside{
+    /* padding-left: 30px; */
+    border: none;
+    outline: none;
+    /* width: 60%; */
+    background-color: white;
+    /* margin-left: 15px; */
+
+  }
+
+  .search-bar-downside input {
+    border: none;
+    background-color:white;
+    outline: none;
+    color:black;
+    font-size: 15px;
+  }
+
+  .botton-second-search-bar {
+    /* padding: 0px 10px; */
+    margin-left: 5px;
+    width: 90%;
+    text-align: center;
+
+  }
+
+  .about-the-company-etsy{
+    display: none;
+
+  }
+
+  .an-arrow-image-class {
+    display: none;
+  }
+
+  .class-for-image {
+    display: none;
+  }
+  .last-side-image {
+    display: none;
+  }
+
+
+  .top-first-search-bar {
+    display: none;
+  }
+
+  .about-the-company-etsy-mobile {
+    display: block;
+    text-align: center;
+    background-color: #fdebd2 ;
+    padding-top: 40px;
+  }
+  .first-part-mobile{
+    text-align: center;
+  }
+
+  .common-for-three-classes-mobile {
+    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  }
+
+  .question-class {
+    padding-left: 0px;
+  }
+
+  .what-is-etsy-mobile a{
+    color: black;
+
+  }
+
+  .trump-para-class {
+    font-size: 15px;
+    border: none;
+
+  }
+  .mountain-image{
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-right: .7px;
+  }
+
+}
