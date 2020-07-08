@@ -253,3 +253,12 @@ order: <integer>
 6. flex-grow: ( We can make the diffrent elemt row with the diffrent sizes)
 7. flex: ( This is the combination on flex grow and shrink)
 
+A PINNED-DOWN MENU
+The menu you see on the right on this page is simply a UL list. But, it stays fixed when you scroll the page. (You may have to make the window smaller to get a scroll bar first.) All the work to make it stay in place is done by rules in the style sheet. Here is the mark-up of the menu, it is taken straight from the source of this page:
+
+<ul id=menu>
+<li><a href="#L384">Section 1</a>
+<li><a href="#details">Section 2</a>
+<li><a href="#FAQ">Section 3</a>
+</ul>
+
