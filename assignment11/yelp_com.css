@@ -1,0 +1,602 @@
+body {
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.main-header-top-one {
+ background-color: black;
+ height: 35em;
+ top: 0px;
+ max-width: 100%;
+ padding-top: 10px;
+}
+
+.main-header {
+    background-color: black;
+}
+
+
+
+@media (min-width :720px){
+    .top-header-menu{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first-content {
+        display: flex;
+        padding: 0px;
+    }
+
+    .first-content li {
+        color: white;
+        list-style-type: none;
+    }
+
+    .first-content li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 9px 12px 10px;
+        font-weight: bold;
+    }
+
+    .second-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .second-content li {
+        padding-left: 150px;
+        color: white;
+        list-style-type: none;
+    }
+
+    .second-content li a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .sign-up {
+        padding-left: 70px;
+        /* margin-left: 90px; */
+        text-align: center;
+        padding: 8px 6px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .content {
+        display: inline-block;
+        padding: 15px 20px;
+        position: relative;
+      }
+    .content:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        width: 0;
+      }
+    .content:hover:after {
+        width: 100%;
+        left: 0;
+      }
+
+    .sign-up:hover {
+        background-color:white;
+        color: black;
+      }
+
+    .top-header-yelp {
+         padding-top: 50px;
+         text-align: center;
+         padding-bottom: 20px;
+     }
+
+    .text-class-one {
+         font-weight: bold;
+         border: none;
+         opacity: .6;
+         width: 300px;
+         outline: none;
+     }
+
+    .text-class-two {
+      font-weight: bold;
+      border: none;
+      opacity: .6;
+      width: 41%;
+      outline: none;
+      padding-left: 33px;
+     }
+
+    .one-image-class {
+       background-color: white;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       width: 70%;
+       margin: 0 auto;
+       border-radius: 3px;
+     }
+
+    .material-class {
+       background-color: #d32323;
+       padding-left: 25px;
+       display: inline-block;
+       padding: 12px 20px;
+       position: relative;
+       height: 1em;
+     }
+
+
+
+    .find-class {
+       font-weight: bold;
+       opacity: .9;
+       padding: 0px 20px;
+     }
+
+    .account-class-delivery {
+       display: flex;
+       flex-flow: row;
+       align-items: center;
+       width: 50%;
+       margin: 0 auto;
+       padding-left: 60px;
+       padding-top: 30px;
+     }
+    .delivery-class{
+       padding: 5px 20px;
+       padding-left: 0px;
+       color: white;
+       font-weight: bold;
+       text-decoration: none;
+
+     }
+
+
+    .header-paragraph {
+       padding-top: 30px;
+       color: white;
+       width: 30%;
+       margin: 0 auto;
+       text-align: center
+     }
+
+    .yelp-class{
+       font-weight: bold;
+     }
+
+    .small-class{
+       font-size: 12px;
+       font-weight: bold;
+     }
+
+    .first-main-section {
+        width: 70%;
+        margin: 0 auto;
+
+        }
+
+    .image-container-sec {
+        display: flex;
+        flex-flow: column;
+        margin: 0px 13px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 8px 8px 0 0;
+
+    }
+
+    .image-container-sec img {
+        border-radius: 8px 8px 0 0;
+
+    }
+
+    .image-container-sec:hover {
+     box-shadow: 0px 3px 3px 3px #bdbdbd;
+
+    }
+
+    .first-main-section h2{
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 50px;
+        color: #d32323;
+    }
+
+    .dry-cleaning {
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+
+    .container-inside {
+        display: flex;
+    }
+
+
+    .main-section {
+        background-color: #EEEEEE;
+        padding-bottom: 30px;
+    }
+
+    .section-sub {
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+
+    }
+
+    .yelp-san-main-section h2{
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 30px;
+        color: #d32323;
+    }
+
+    .cities-container {
+        text-align: center;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-icon-class {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+
+    .cities-container a  {
+     text-decoration: none;
+     color: black;
+     opacity: .8;
+     font-size: 14px;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    }
+
+    .underline-us {
+        color: black;
+        padding: 10px 15px;
+        position: relative;
+    }
+
+    .underline-us:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #d32323;
+    }
+
+    .underline-us:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    /* .yelp-section-hot-new {
+       color: #d32323;
+    } */
+
+    .yelp-section-hot-new {
+        /* background-color: green; */
+        height: 25em;
+    }
+
+    .search-icon-class a {
+        padding: 8px 3px;
+    }
+
+    .icon-class {
+        padding-top: 0px;
+        margin-top: 3px;
+    }
+    .checked {
+        color:white;
+        border: 1px solid red;
+        background-color: #d32323;
+        margin-left: 3px;
+      }
+
+    .unchecked {
+        background-color:gray;
+        color:white;
+        margin-left: 3px;
+    }
+
+    .food-class-test {
+        display: flex;
+    }
+
+
+    .lee-moon-thai-eat {
+     margin-left: 30px;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+     border: 1px solid #e0e0e0;
+     border-radius: 8px 8px 5px 5px;
+    }
+
+    .zatter-class{
+        height: auto;
+        max-width: 100%;
+    }
+
+    .yelp-section-hot-new h4{
+        text-align: center;
+        color: #d32323;
+    }
+
+    .lee-moon-thai-eat p {
+        margin: 0px;
+        padding: 4px 0px;
+        font-size: 14px;
+    }
+
+    .moon-class {
+        color: #0073BB;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+    .lee-moon-thai-eat a {
+        text-decoration: none;
+    }
+
+    .week-class {
+        color: #F15C00;
+        font-size: 14px;
+    }
+    .fa-fire {
+        color:#F15C00 ;
+    }
+    .lee-moon-thai-eat img {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .paragraph-class {
+        padding: 4px 8px;
+    }
+
+    .hr {
+        margin: 0px;
+    }
+
+    .business-class {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .business-class a {
+        color: #0073BB;
+        text-decoration: none;
+    }
+
+    .business-class a:hover {
+        text-decoration: underline;
+    }
+
+    .the-local-help-yelp {
+        display: flex;
+        flex-flow: row;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .second-section {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .local-yelp h3 {
+        text-align: center;
+        color:#d32323;
+    }
+
+    .local-yelp p {
+        font-size: 14px;
+    }
+
+
+    .para-inside-class{
+        width: 580px;
+    }
+
+    .official-yelp-event h3 {
+        text-align: center;
+        color:#d32323;
+    }
+
+    .official-yelp-event {
+        margin-left: 30px;
+        width: 265px;
+    }
+
+    .event-yelp-pound p {
+        font-size: 14px;
+    }
+
+    .image-para-div {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+
+    .image-second-paragraph {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px 8px 0 0;
+    }
+    .para-inside-class a{
+        text-decoration: none;
+        color: #0073BB;
+    }
+
+    .para-inside-class a:hover {
+        text-decoration: underline;
+    }
+
+    .para-inside-class h4 {
+        margin-bottom: 0px;
+        padding-left: 4px
+    }
+
+    .para-inside-class h4:hover {
+        text-decoration: underline;
+    }
+
+    .para-inside-class p {
+      padding-left: 5px;
+    }
+
+    .event-yelp-pound a {
+        text-decoration: none;
+        color: #0073BB;
+    }
+
+    .the-help {
+        opacity: .6;
+    }
+
+    .event-yelp-pound h4 {
+        margin-bottom: 0px;
+        padding-left: 4px;
+    }
+    .event-yelp-pound p {
+        padding-left: 4px;
+    }
+
+    .event-yelp-pound h4:hover{
+        text-decoration: underline;
+    }
+
+    .see-more {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .see-more a{
+    color: #0073BB;
+    text-decoration: none;
+    }
+
+    .see-more a:hover{
+        text-decoration: underline;
+    }
+    .image-class {
+        display: flex;
+    }
+    .review-of-day {
+        display: flex;
+    }
+
+    .third-section {
+        width: 65%;
+        margin: 0 auto;
+        font-size: 14px;
+
+    }
+
+    .elaine-paragraph a {
+     text-decoration: none;
+     font-weight: bold;
+     color: #0073BB;
+
+    }
+    .elaine-paragraph {
+       padding: 10px 5px;
+    }
+    .mature-image {
+        padding: 10px;
+    }
+    .class-friends {
+        display: block;
+    }
+
+
+    .image-yelp-team {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+
+    }
+    .image-yelp-team span {
+        padding: 0px 5px;
+    }
+    .image-yelp-team .checked {
+        color:white;
+        background-color:#F15C00 ;
+    }
+
+    .review-of-day {
+        display: flex;
+        padding: 5px 5px;
+        text-align: center;
+        position: relative;
+        background-color: #D0ECFB;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border-radius: 3px;
+
+    }
+    .review-of-day p {
+        margin: 0;
+    }
+    .banner-class {
+        position: absolute;
+        left: 90%;
+
+    }
+
+    .first-box {
+        width: 580px;
+        padding-top: 20px;
+
+    }
+
+    .inside-container-border {
+     border: 1px solid #e0e0e0;
+     border-radius: 8px;
+    }
+    .review-wrote {
+        margin: 0px;
+        padding-top: 3px;
+    }
+    .team-yelp {
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+    }
+    .last-type-class {
+        padding: 5px;
+    }
+    .top-paragraph-container h3{
+        color:#d32323 ;
+        text-align: center;
+    }
+
+}
+
+
