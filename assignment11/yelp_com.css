@@ -20,6 +20,7 @@ body {
 
 
 
+
 @media (min-width :720px){
     .top-header-menu{
         display: flex;
@@ -130,7 +131,7 @@ body {
        text-align: center;
        display: flex;
        align-items: center;
-       width: 940px;
+       width: 926px;
        margin: 0 auto;
        border-radius: 3px;
      }
@@ -143,7 +144,6 @@ body {
        position: relative;
        height: 1em;
      }
-
 
 
     .find-class {
@@ -173,8 +173,6 @@ body {
        text-decoration: none;
        display: flex;
 
-
-
      }
 
 
@@ -186,20 +184,23 @@ body {
        text-align: center
      }
 
+
     .yelp-class{
        font-weight: bold;
      }
+
 
     .small-class{
        font-size: 12px;
        font-weight: bold;
      }
 
+
     .first-main-section {
         width: 940px;
         margin: 0 auto;
 
-        }
+    }
 
     .image-container-sec {
         display: flex;
@@ -1001,14 +1002,286 @@ body {
         padding-top: 10px;
     }
 
+    .mobile-view {
+        display: none;
+    }
 
 
 
+}
 
+@media screen and (max-width: 480px) {
+   .web-view {
+       display: none;
+   }
 
+   .mobile-class {
+       display: block;
+   }
 
+   .main-top-nav{
+        background-color:#d32323;
+        padding: 6px 0px;
 
+   }
 
+   .main-top-nav {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+
+   }
+
+   .top-mobile-container {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+   .side-main-section{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+   .logo-mobile-us {
+       padding-left: 50px;
+   }
+
+   .side-main-section {
+       padding-right: 15px;
+   }
+
+   .mobile-search{
+       padding-right: 20px;
+   }
+
+   .mobile-search .material-icons {
+       color: white;
+   }
+
+   .fa-bars{
+       color: white;
+   }
+
+   .first-main-mobile{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       margin: auto;
+   }
+
+   .first-main-mobile p {
+       font-size: 12px;
+       text-decoration: none;
+       color: black;
+   }
+
+   .first-main-mobile a{
+       text-decoration: none;
+       color: black;
+   }
+
+   .second-main-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+   }
+
+   .second-main-mobile p {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+   }
+
+   .second-main-mobile a{
+    text-decoration: none;
+    color: black;
+   }
+
+   .section1-mobile{
+       padding-top: 30px;
+   }
+
+   .top-main-mobile{
+       text-align: center;
+       /* background-color: #f5f5f5; */
+   }
+
+   .under-container-mobile {
+    background-color: #f5f5f5;
+    padding: 20px;
+   }
+
+   .top-four-containers {
+       display: flex;
+       margin-left: 10px;
+       position: relative;
+       overflow: scroll;
+       -ms-overflow-style: none;
+       scrollbar-width: none;
+       justify-content: space-between;
+
+   }
+
+   .first-sec-images {
+    border-radius: 5px;
+    margin-right: 8px;
+   }
+
+   .section2-mobile {
+    padding: 20px 0px;
+    background-color: white;
+    border-top: 1px solid #e6e6e6;;
+    border-bottom: 1px solid #e6e6e6;
+    overflow-x: hidden;
+
+   }
+
+   .first-sec-image {
+       text-align: center;
+   }
+
+   .first-sec-image a {
+    text-decoration: none;
+    color: black;
+   }
+
+    .automotive {
+        padding-left: 10px;
+
+    }
+
+    .yelp-button{
+        background-color: #0097ec;
+        text-align: center;
+        padding: 20px 0px;
+        border-radius: 4px;
+        margin:20px 10px;
+        color: white;
+    }
+
+    .button-container{
+        padding-top: 5px;
+        background-color: #f5f5f5;
+    }
+    .tea-hut {
+        display: flex;
+    }
+
+    .section-3-mobile {
+        padding-top: 5px;
+    }
+
+    .teees{
+        padding-left: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #0073bb;
+        margin-top: 0px;
+
+    }
+
+    .bubble-tea {
+        padding: 5px 5px;
+        margin-top: 4px;
+        color: #0073bb;
+
+    }
+
+    .checked {
+        color:white;
+        border: 1px solid red;
+        background-color: #d32323;
+        margin-left: 3px;
+      }
+
+    .unchecked {
+        background-color:gray;
+        color:white;
+        margin-left: 3px;
+    }
+
+    .star-class-mobile {
+        padding: 5px 10px;
+    }
+
+    .tea-hut{
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .main-business{
+        padding-bottom: 20px;
+    }
+
+    .more-business {
+       color: #666;
+       background-color: #fff;
+       padding: 4px;
+       margin: 5px 5px;
+       border: 1px solid rgb(187, 184, 184);
+       border-radius: 4px;
+       text-align: center;
+    }
+
+    .outer-business{
+        background-color: #f5f5f5;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .footer-inside-mobile {
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .english-class {
+        color: #0073bb;
+
+    }
+
+    .footer-mobile {
+        background-color: #f5f5f5;
+    }
+
+    .footer-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px 5px;
+
+    }
+    .languages p {
+        margin-top: 0px;
+    }
+
+    .footer-info li {
+        list-style-type: none;
+        color: #0073bb;
+        font-size: 13px;
+    }
+
+    .yelp-add-mobile{
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0px;
+        font-size: 18px;
+        color: #0073bb;
+    }
+
+    .notes-mobile{
+        padding: 5px 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .tea-hut-images {
+        padding-left: 8px;
+    }
 
 }
 
