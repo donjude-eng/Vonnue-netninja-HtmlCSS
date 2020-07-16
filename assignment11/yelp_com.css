@@ -2,9 +2,6 @@ body {
     font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
 
 .main-header-top-one {
  background-color: black;
@@ -17,9 +14,6 @@ body {
 .main-header {
     background-color: black;
 }
-
-
-
 
 @media (min-width :720px){
     .top-header-menu{
@@ -588,7 +582,6 @@ body {
     .first-box {
         width: 580px;
         padding-top: 20px;
-
     }
 
     .inside-container-border {
