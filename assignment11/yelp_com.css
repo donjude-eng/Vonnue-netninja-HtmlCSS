@@ -1,0 +1,1282 @@
+body {
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+.main-header-top-one {
+ background-color: black;
+ height: 35em;
+ top: 0px;
+ max-width: 100%;
+ padding-top: 10px;
+}
+
+.main-header {
+    background-color: black;
+}
+
+@media (min-width :720px){
+    .top-header-menu{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first-content {
+        display: flex;
+        padding: 0px;
+    }
+
+    .first-content li {
+        color: white;
+        list-style-type: none;
+    }
+
+    .first-content li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 9px 12px 10px;
+        font-weight: bold;
+    }
+
+    .second-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .second-content li {
+        padding-left: 150px;
+        color: white;
+        list-style-type: none;
+    }
+
+    .second-content li a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .sign-up {
+        padding-left: 70px;
+        /* margin-left: 90px; */
+        text-align: center;
+        padding: 8px 6px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .content {
+        display: inline-block;
+        padding: 15px 20px;
+        position: relative;
+      }
+    .content:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        width: 0;
+      }
+    .content:hover:after {
+        width: 100%;
+        left: 0;
+      }
+
+    .sign-up:hover {
+        background-color:white;
+        color: black;
+      }
+
+    .top-header-yelp {
+         padding-top: 50px;
+         text-align: center;
+         padding-bottom: 20px;
+     }
+
+    .text-class-one {
+         font-weight: bold;
+         border: none;
+         opacity: .6;
+         width: 290px;
+         outline: none;
+     }
+
+    .text-class-two {
+      font-weight: bold;
+      border: none;
+      opacity: .6;
+      width: 41%;
+      outline: none;
+      padding-left: 33px;
+     }
+
+    .one-image-class {
+       background-color: white;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       width: 926px;
+       margin: 0 auto;
+       border-radius: 3px;
+     }
+
+    .material-class {
+       background-color: #d32323;
+       padding-left: 25px;
+       display: inline-block;
+       padding: 12px 20px;
+       position: relative;
+       height: 1em;
+     }
+
+
+    .find-class {
+       font-weight: bold;
+       opacity: .9;
+       padding: 0px 20px;
+     }
+
+    .account-class-delivery {
+       display: flex;
+       flex-flow: row;
+       align-items: center;
+       width: 50%;
+       margin: 0 auto;
+       padding-left: 60px;
+       padding-top: 30px;
+       justify-content: space-around;
+
+
+     }
+
+    .delivery-class{
+       padding: 5px 20px;
+       padding-left: 0px;
+       color: white;
+       font-weight: bold;
+       text-decoration: none;
+       display: flex;
+
+     }
+
+
+    .header-paragraph {
+       padding-top: 30px;
+       color: white;
+       width: 30%;
+       margin: 0 auto;
+       text-align: center
+     }
+
+
+    .yelp-class{
+       font-weight: bold;
+     }
+
+
+    .small-class{
+       font-size: 12px;
+       font-weight: bold;
+     }
+
+
+    .first-main-section {
+        width: 940px;
+        margin: 0 auto;
+
+    }
+
+    .image-container-sec {
+        display: flex;
+        flex-flow: column;
+        margin: 0px 13px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 8px 8px 0 0;
+
+    }
+
+    .image-container-sec img {
+        border-radius: 8px 8px 0 0;
+
+    }
+
+    .image-container-sec:hover {
+     box-shadow: 0px 3px 3px 3px #bdbdbd;
+
+    }
+
+    .first-main-section h2{
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 50px;
+        color: #d32323;
+    }
+
+    .dry-cleaning {
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+
+    .container-inside {
+        display: flex;
+    }
+
+
+    .main-section {
+        background-color: #EEEEEE;
+        padding-bottom: 30px;
+    }
+
+    .section-sub {
+        width: 940px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+
+    }
+
+    .yelp-san-main-section h2{
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 30px;
+        color: #d32323;
+    }
+
+    .cities-container {
+        text-align: center;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-icon-class {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+
+    .cities-container a  {
+     text-decoration: none;
+     color: black;
+     opacity: .8;
+     font-size: 14px;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    }
+
+    .underline-us {
+        color: black;
+        padding: 10px 15px;
+        position: relative;
+    }
+
+    .underline-us:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #d32323;
+    }
+
+    .underline-us:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    /* .yelp-section-hot-new {
+       color: #d32323;
+    } */
+
+    .yelp-section-hot-new {
+        /* background-color: green; */
+        height: 25em;
+    }
+
+    .search-icon-class a {
+        padding: 8px 3px;
+    }
+
+    .icon-class {
+        padding-top: 0px;
+        margin-top: 3px;
+    }
+    .checked {
+        color:white;
+        border: 1px solid red;
+        background-color: #d32323;
+        margin-left: 3px;
+      }
+
+    .unchecked {
+        background-color:gray;
+        color:white;
+        margin-left: 3px;
+    }
+
+    .food-class-test {
+        display: flex;
+    }
+
+
+    .lee-moon-thai-eat {
+     margin-left: 30px;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+     border: 1px solid #e0e0e0;
+     border-radius: 8px 8px 5px 5px;
+    }
+
+    .zatter-class{
+        height: auto;
+        max-width: 100%;
+    }
+
+    .yelp-section-hot-new h4{
+        text-align: center;
+        color: #d32323;
+    }
+
+    .lee-moon-thai-eat p {
+        margin: 0px;
+        padding: 4px 0px;
+        font-size: 14px;
+    }
+
+    .moon-class {
+        color: #0073BB;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+    .lee-moon-thai-eat a {
+        text-decoration: none;
+    }
+
+    .week-class {
+        color: #F15C00;
+        font-size: 14px;
+    }
+    .fa-fire {
+        color:#F15C00 ;
+    }
+    .lee-moon-thai-eat img {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .paragraph-class {
+        padding: 4px 8px;
+    }
+
+    .hr {
+        margin: 0px;
+    }
+
+    .business-class {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .business-class a {
+        color: #0073BB;
+        text-decoration: none;
+    }
+
+    .business-class a:hover {
+        text-decoration: underline;
+    }
+
+    .the-local-help-yelp {
+        display: flex;
+        flex-flow: row;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .second-section {
+        width: 940px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .local-yelp h3 {
+        text-align: center;
+        color:#d32323;
+    }
+
+    .local-yelp p {
+        font-size: 14px;
+    }
+
+
+    .para-inside-class{
+        width: 580px;
+    }
+
+    .official-yelp-event h3 {
+        text-align: center;
+        color:#d32323;
+    }
+
+    .official-yelp-event {
+        margin-left: 30px;
+        width: 265px;
+    }
+
+    .event-yelp-pound p {
+        font-size: 14px;
+    }
+
+    .image-para-div {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+
+    .image-second-paragraph {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px 8px 0 0;
+    }
+    .para-inside-class a{
+        text-decoration: none;
+        color: #0073BB;
+    }
+
+    .para-inside-class a:hover {
+        text-decoration: underline;
+    }
+
+    .para-inside-class h4 {
+        margin-bottom: 0px;
+        padding-left: 4px
+    }
+
+    .para-inside-class h4:hover {
+        text-decoration: underline;
+    }
+
+    .para-inside-class p {
+      padding-left: 5px;
+    }
+
+    .event-yelp-pound a {
+        text-decoration: none;
+        color: #0073BB;
+    }
+
+    .the-help {
+        opacity: .6;
+    }
+
+    .event-yelp-pound h4 {
+        margin-bottom: 0px;
+        padding-left: 4px;
+    }
+    .event-yelp-pound p {
+        padding-left: 4px;
+    }
+
+    .event-yelp-pound h4:hover{
+        text-decoration: underline;
+    }
+
+    .see-more {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .see-more a{
+    color: #0073BB;
+    text-decoration: none;
+    }
+
+    .see-more a:hover{
+        text-decoration: underline;
+    }
+    .image-class {
+        display: flex;
+    }
+    .review-of-day {
+        display: flex;
+    }
+
+    .third-section {
+        width: 880px;
+        margin: 0 auto;
+        font-size: 14px;
+        display: flex;
+
+    }
+
+    .elaine-paragraph a {
+     text-decoration: none;
+     font-weight: bold;
+     color: #0073BB;
+
+    }
+    .elaine-paragraph {
+       padding: 10px 5px;
+    }
+    .mature-image {
+        padding: 10px;
+    }
+    .class-friends {
+        display: block;
+    }
+
+
+    .image-yelp-team {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+
+    }
+    .image-yelp-team span {
+        padding: 0px 5px;
+    }
+    .image-yelp-team .checked {
+        color:white;
+        background-color:#F15C00 ;
+    }
+
+    .review-of-day {
+        display: flex;
+        padding: 5px 5px;
+        text-align: center;
+        position: relative;
+        background-color: #D0ECFB;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border-radius: 3px;
+
+    }
+
+    .review-of-day p {
+        margin: 0;
+    }
+
+    .banner-class {
+        position: absolute;
+        left: 90%;
+
+    }
+
+    .first-box {
+        width: 580px;
+        padding-top: 20px;
+    }
+
+    .inside-container-border {
+     border: 1px solid #e0e0e0;
+     border-radius: 8px;
+    }
+
+    .review-wrote {
+        margin: 0px;
+        padding-top: 3px;
+    }
+
+    .team-yelp {
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+    }
+
+    .last-type-class {
+        padding: 5px;
+    }
+
+    .top-paragraph-container h3{
+        color:#d32323 ;
+        text-align: center;
+    }
+
+    .second-top-box {
+      padding: 10px;
+      margin-left: 25px;
+      padding-right: 0px;
+      padding-top: 20px;
+    }
+
+    .image-first {
+      cursor: pointer;
+    }
+
+    .city-para {
+      padding-left: 10px;
+    }
+
+    .city-sf {
+      color: #0073BB;
+      font-weight: bold;
+      margin: 0px;
+    }
+
+    .all-three-container{
+      border: 1px solid #e0e0e0;
+      border-radius: 5px;
+    }
+
+    .h3-recent {
+      color:#d32323 ;
+      text-align: center;
+    }
+
+    .black-women {
+      margin-top: 0px;
+    }
+
+    .city-para span {
+      opacity: .6;
+    }
+
+    .Tray{
+      color: #0073bb;
+      cursor: pointer;
+    }
+
+    .recent-collection-first-image {
+      display: flex;
+
+    }
+
+    .snake-image-para {
+      padding: 5px ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 11px;
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 12px;
+    }
+
+    .snake-image-para-two {
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 11px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #e6e6e6;
+      width: 100%;
+
+    }
+
+    .snake-image-para-third {
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 11px;
+      margin-bottom: 12px;
+
+    }
+
+    .fourth-section {
+      width: 880px;
+      margin: 0 auto;
+      font-size: 14px;
+      /* display: flex; */
+    }
+
+    .recent-activity-yelp{
+      color:#d32323 ;
+      text-align: center;
+      width: 100%;
+
+
+    }
+
+    .fourth-section{
+        padding-top: 65px;
+    }
+
+    .vivians {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid #e6e6e6;
+    }
+
+    .vivans-para-small {
+      color: #0073bb;
+      cursor: pointer;
+      padding: 0px 10px;
+      margin-bottom: 0px;
+    }
+
+    .addedphoto {
+      padding: 0px 10px;
+      margin-top: 4px;
+    }
+
+    .images-biriyani {
+      display: flex;
+      padding: 5px;
+    }
+
+    .fishburger {
+      padding: 0px 10px;
+    }
+    .fa-thumbs-up {
+      padding: 5px 15px;
+      color: #e6e6e6;
+
+    }
+
+    .tamarind {
+        text-align: center;
+    }
+
+    .vivans-image-vivans {
+      border: 1px solid #e0e0e0;
+      border-radius: 5px;
+      padding: 10px 20px;
+      width: 230px;
+
+    }
+
+    .regina-image-para {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .second-regina-v {
+        padding-top: 5px;
+        width: 270px;
+        border: 1px solid #e0e0e0;
+        /* padding: 10px; */
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    .regina-paragraph {
+        padding-left: 10px;
+    }
+
+    .undergroud-covid{
+        padding: 5px 10px;
+        width: 260px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .under-imogi-class {
+        padding-top: 10px;
+        padding: 5px;
+
+    }
+
+    .star-class-red{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .highware{
+        color: #0073bb;
+        cursor: pointer;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .regina-review{
+        color: #0073bb;
+        cursor: pointer;
+    }
+
+    .butter-shake-image{
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .vivans-image-middle-part {
+        padding-left: 10px;
+        border: 1px solid #e0e0e0;
+        margin-left: 30px;
+        height: 20em;
+        padding: 10px 20px;
+        width: 230px;
+    }
+
+    .main-box-recent {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e6e6e6;
+
+    }
+
+    .third-contents-paragraph{
+        padding-left: 20px;
+        margin-left: 30px;
+        border: 1px solid #e0e0e0;
+    }
+
+    .third-contents-paragraph {
+        padding-left: 10px;
+        border: 1px solid #e0e0e0;
+        margin-left: 30px;
+        height: 38em;
+        width: 260px;
+    }
+    .butter-shake-image-2 {
+        padding-left: 0;
+    }
+
+    .bottom-para-activity {
+        text-align: center;
+        font-size: 15px;
+        color: #0073bb;
+        cursor: pointer;
+        padding-bottom: 30px;
+    }
+
+    .undergroud-covid-2{
+        padding: 5px 10px;
+        border-bottom: 1px solid #e6e6e6;
+
+    }
+
+    .fifth-section{
+      font-size: 14px;
+      background-color: #f5f5f5;
+
+    }
+
+    .first-catogory-boxes{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .one-main-fifth-container{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+    }
+
+    .five-head{
+        text-align: center ;
+        color:#d32323 ;
+        padding-top: 20px;
+    }
+
+    .hotel ,.shopping ,.nigntlife, .football {
+        background-color: white;
+        padding: 10px 40px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+    .second-catogory-boxes{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 35px;
+        cursor: pointer;
+        padding-bottom: 30px;
+
+    }
+
+    .Beauty ,.automotive ,.Homeservice, .tile {
+        background-color: white;
+        padding: 10px 40px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+    .computer-class{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+
+    .yelp-mobile-apps{
+        text-align: center;
+        color:#d32323 ;
+
+    }
+
+    .computer-ipad{
+        border: 1px solid #e0e0e0;
+        padding: 10px 30px;
+        display: block;
+        width: 40%;
+    }
+
+    .Android{
+        border: 1px solid #e0e0e0;
+        padding: 10px 30px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .top-containers-footer{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+    }
+
+    .top-containers-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .yelp-footer a {
+     text-decoration: none;
+     list-style-type: none;
+     color: #0073bb;
+     font-size: 15px;
+
+    }
+
+    .yelp-footer{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    }
+
+    .top-containers-footer h3{
+        color:#d32323 ;
+
+    }
+
+    .lang{
+        margin-top: 0px;
+    }
+
+    .final-footer{
+        background-color: #f5f5f5;
+    }
+
+    .sixth-section{
+        padding-bottom: 30px;
+    }
+
+    .image-class-palace{
+        max-width: 650px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .notes{
+        text-align: center;
+
+    }
+
+    .final-footer{
+        padding-top: 10px;
+    }
+
+    .mobile-view {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+   .web-view {
+       display: none;
+   }
+
+   .mobile-class {
+       display: block;
+   }
+
+   .main-top-nav{
+        background-color:#d32323;
+        padding: 6px 0px;
+
+   }
+
+   .main-top-nav {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+
+   }
+
+   .top-mobile-container {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+   .side-main-section{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+   .logo-mobile-us {
+       padding-left: 50px;
+   }
+
+   .side-main-section {
+       padding-right: 15px;
+   }
+
+   .mobile-search{
+       padding-right: 20px;
+   }
+
+   .mobile-search .material-icons {
+       color: white;
+   }
+
+   .fa-bars{
+       color: white;
+   }
+
+   .first-main-mobile{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       margin: auto;
+   }
+
+   .first-main-mobile p {
+       font-size: 12px;
+       text-decoration: none;
+       color: black;
+   }
+
+   .first-main-mobile a{
+       text-decoration: none;
+       color: black;
+   }
+
+   .second-main-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+   }
+
+   .second-main-mobile p {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+   }
+
+   .second-main-mobile a{
+    text-decoration: none;
+    color: black;
+   }
+
+   .section1-mobile{
+       padding-top: 30px;
+   }
+
+   .top-main-mobile{
+       text-align: center;
+       /* background-color: #f5f5f5; */
+   }
+
+   .under-container-mobile {
+    background-color: #f5f5f5;
+    padding: 20px;
+   }
+
+   .top-four-containers {
+       display: flex;
+       margin-left: 10px;
+       position: relative;
+       overflow: scroll;
+       -ms-overflow-style: none;
+       scrollbar-width: none;
+       justify-content: space-between;
+
+   }
+
+   .first-sec-images {
+    border-radius: 5px;
+    margin-right: 8px;
+   }
+
+   .section2-mobile {
+    padding: 20px 0px;
+    background-color: white;
+    border-top: 1px solid #e6e6e6;;
+    border-bottom: 1px solid #e6e6e6;
+    overflow-x: hidden;
+
+   }
+
+   .first-sec-image {
+       text-align: center;
+   }
+
+   .first-sec-image a {
+    text-decoration: none;
+    color: black;
+   }
+
+    .automotive {
+        padding-left: 10px;
+
+    }
+
+    .yelp-button{
+        background-color: #0097ec;
+        text-align: center;
+        padding: 20px 0px;
+        border-radius: 4px;
+        margin:20px 10px;
+        color: white;
+    }
+
+    .button-container{
+        padding-top: 5px;
+        background-color: #f5f5f5;
+    }
+    .tea-hut {
+        display: flex;
+    }
+
+    .section-3-mobile {
+        padding-top: 5px;
+    }
+
+    .teees{
+        padding-left: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #0073bb;
+        margin-top: 0px;
+
+    }
+
+    .bubble-tea {
+        padding: 5px 5px;
+        margin-top: 4px;
+        color: #0073bb;
+
+    }
+
+    .checked {
+        color:white;
+        border: 1px solid red;
+        background-color: #d32323;
+        margin-left: 3px;
+      }
+
+    .unchecked {
+        background-color:gray;
+        color:white;
+        margin-left: 3px;
+    }
+
+    .star-class-mobile {
+        padding: 5px 10px;
+    }
+
+    .tea-hut{
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .main-business{
+        padding-bottom: 20px;
+    }
+
+    .more-business {
+       color: #666;
+       background-color: #fff;
+       padding: 4px;
+       margin: 5px 5px;
+       border: 1px solid rgb(187, 184, 184);
+       border-radius: 4px;
+       text-align: center;
+    }
+
+    .outer-business{
+        background-color: #f5f5f5;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .footer-inside-mobile {
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .english-class {
+        color: #0073bb;
+
+    }
+
+    .footer-mobile {
+        background-color: #f5f5f5;
+    }
+
+    .footer-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px 5px;
+
+    }
+    .languages p {
+        margin-top: 0px;
+    }
+
+    .footer-info li {
+        list-style-type: none;
+        color: #0073bb;
+        font-size: 13px;
+    }
+
+    .yelp-add-mobile{
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0px;
+        font-size: 18px;
+        color: #0073bb;
+    }
+
+    .notes-mobile{
+        padding: 5px 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .tea-hut-images {
+        padding-left: 8px;
+    }
+
+}
+
+
+
