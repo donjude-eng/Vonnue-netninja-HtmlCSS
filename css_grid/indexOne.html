@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleOne.css">
+    <title>CSS Grid One</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns:70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+            grid-gap: 1em;
+        }
+
+        .wrapper > div{
+            background:#eee;
+            padding:1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background:#ddd;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, quas sequi sapiente enim natus ipsam vitae nemo accusamus blanditiis animi! Debitis, ipsam velit! Qui quae eaque, natus hic sequi similique provident aspernatur earum porro totam velit ipsam dolor voluptatibus doloribus nobis enim voluptatum nisi cupiditate magnam possimus corporis. Nobis ea similique, rerum voluptatibus quos quidem velit totam repudiandae laborum esse tempora nesciunt possimus. Iusto sapiente nostrum quis magnam, placeat facilis dolorem hic, voluptate optio nobis laboriosam in labore recusandae cumque.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatum doloribus assumenda in laudantium optio, tempore ullam ipsa dolore aspernatur. Praesentium possimus nihil fuga dignissimos sint dolorum aliquid tempora animi?
+        </div>
+
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, quas sequi sapiente enim natus ipsam vitae nemo accusamus blanditiis animi! Debitis, ipsam velit! Qui quae eaque, natus hic sequi similique provident aspernatur earum porro totam velit ipsam dolor voluptatibus doloribus nobis enim voluptatum nisi cupiditate magnam possimus corporis. Nobis ea similique, rerum voluptatibus quos quidem velit totam repudiandae laborum esse tempora nesciunt possimus. Iusto sapiente nostrum quis magnam, placeat facilis dolorem hic, voluptate optio nobis laboriosam in labore recusandae cumque.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatum doloribus assumenda in laudantium optio, tempore ullam ipsa dolore aspernatur. Praesentium possimus nihil fuga dignissimos sint dolorum aliquid tempora animi?
+        </div>
+
+    </div>
+
+
+</body>
+</html>
